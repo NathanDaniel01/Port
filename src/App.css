@@ -1,0 +1,609 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+:root {
+  --Background-color: #FEF6F4;
+  --Black: #000000;
+  --red: #F62E2E;
+  --White: #FFFFFF;
+  --Redish: #CF062D;
+
+}
+@import url("https://use.typekit.net/gze6yme.css");
+@font-face {
+font-family: eloquent-jf-pro;
+font-weight: 400;
+font-style: italic;
+src: url(https://use.typekit.net/gze6yme.css);
+}
+@font-face {
+  font-family: loos-wide;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://use.typekit.net/gze6yme.css);
+}
+.mainBG{
+  background-color: var(--Background-color);
+}
+.header{
+  font-style: italic;
+  font-family: eloquent-jf-pro;
+  font-size: 222px;
+  color: var(--Black);
+  margin-right: 8%;
+  text-align: right;
+  margin-left: auto;
+  margin-top: 80px;
+}
+.header1{
+  margin-left: 8%;
+  padding-top: 75px;
+  font-style: italic;
+  font-family: eloquent-jf-pro;
+  font-size: 200px;
+  color: var(--Black);
+}
+.header2{
+  margin-left: 5%;
+  font-style: italic;
+  font-family: eloquent-jf-pro;
+  font-size: 200px;
+  color: var(--Black);
+}
+.subHeader{
+  margin-left: 5%;
+  margin-top: -60px;
+  margin-bottom: 10%;
+  font-family: loos-wide, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 38pt;
+  color: var(--red);
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+.links{
+  font-style: normal;
+  font-family: eloquent-jf-pro;
+  font-size: 36pt ;
+  color: var(--Black);
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top:-50px;
+  margin-bottom: 50px;
+  padding-right: 50px;
+  text-decoration: none; 
+
+}
+.links:hover{
+  color: var(--red);
+}
+.lines1{
+    margin-top: -10%;
+    margin-bottom: 60px;
+    border-top: solid;
+    border-width: 3px;
+    border-color: var(--black);
+    width: 105%;
+}
+.lines2{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-top: solid;
+  border-width: 3px;
+  border-color: var(--black);
+  width: 90%;
+}
+.lines3{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-top: solid;
+  border-width: 3px;
+  border-color: var(--black);
+  width: 75%;
+}
+.lines4{
+  margin-top: 0%;
+  margin-bottom: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: 0;
+  right:0;
+  border-top: solid;
+  border-width: 3px;
+  border-color: var(--black);
+  width: 30% !important;
+}
+.lines5{
+margin-top: 30px;
+margin-bottom: 60px;
+margin-left: auto;
+margin-right: 0;
+border-top: solid;
+border-width: 3px;
+border-color: var(--black);
+width: 45% !important;
+right: 0px;
+}
+.lines6{
+margin-top: 30px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: 0%;
+border-top: solid;
+border-width: 3px;
+border-color: var(--black);
+width: 55% !important;
+}
+p{
+  font-family: loos-wide, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  color: var(--Black);
+  margin: 30px;
+}
+.whiteText{
+  font-family: loos-wide, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  color: var(--White);
+  z-index: 10 !important;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.FooterText{
+  font-family: loos-wide, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  color: var(--White);
+  margin-bottom: 50px;
+  margin: 15px;
+}
+.Footer{
+  background-color: var(--Black);
+  width: 100vw;
+  height: 100%;
+}
+.ContactPadding{
+  height: 400px;
+  background-color: var(--Redish);
+}
+.dropdownPadding{
+  margin-top: 100px;
+  padding-top: 120px;
+}
+.RedBG{
+  background-color: var(--Redish);
+}
+.BlackBG{
+  background-color: var(--Black);
+  width: 100vw;
+}
+.dropTitles{
+  font-style: normal;
+  font-family: eloquent-jf-pro;
+  font-size: 40pt ;
+  color: var(--Black);
+  text-align: center;
+}
+.dropTitles:hover{
+  color: var(--White);
+}
+.dropTitles:active{
+  color: var(--White);
+}
+.titlesWhitetoRed{
+  font-style: normal;
+  font-family: eloquent-jf-pro;
+  font-size: 36pt ;
+  color: var(--White);
+  text-align: center;
+  margin-bottom: 80px;
+}
+.titlesWhitetoRed:hover{
+  color: var(--Redish);
+}
+.DropTitlesWhiteText{
+  font-family: loos-wide, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  color: var(--White);
+  z-index: 10 !important;
+  position: relative;
+  padding-top: 50px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 80px;
+}
+.line{
+  border-top: solid;
+  border-width: 3px;
+  border-color: var(--black);
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.lineWhite{
+  border-top: solid;
+  border-width: 3px;
+  border-color: var(--White);
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.BreathingRoom{
+  padding: 100px;
+}
+/*
+-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-
+Paralax
+-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-
+*/
+.cliff{
+  margin-top: -5%;
+  width: 100vw;
+  position: relative;
+  z-index: 2 !important;
+}
+.mountains1{
+  margin-top: -2%;
+  width: 100vw;
+}
+.mountains2{
+  margin-top: -68%;
+  z-index: 2;
+}
+.mountains3{
+  margin-top: -15%;
+  z-index: 2;
+}
+.hills{
+  margin-top: -18%;
+  z-index: 2;
+}
+.tree1{
+  margin-top: -50%;
+  width: 100vw;
+}
+.tree2{
+  margin-top: -80%;
+  margin-left: auto;
+  margin-right: 0;
+  width: 30%;
+}
+.tree3{
+  margin-top: -20%;
+  width: 100vw;
+}
+.river{
+  margin-top: -16%;
+  width: 65%;
+  margin-left: auto;
+  margin-right: 0;
+}
+.tree4{
+  margin-left: auto;
+  background-color: var(--Redish);
+}
+.padding{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--Redish);
+}
+.extrapadding{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.row{
+padding: 0px !important;
+margin-right: 0 !important;
+}
+.imgFlex {
+  width: 100%;
+  display: flex;
+}
+.bluediv {
+  flex: 3 0 auto;
+  background-color: blue;
+  height: 400px;
+}
+.reddiv {
+  flex: 3 0 auto;
+  background-color:red;
+  height: 400px;
+}
+.yellowdiv {
+  flex: 3 0 auto;
+  background-color:yellow;
+  height: 400px;
+}
+.span1{
+  float: left;
+  line-height: 11%;
+  width: .93em;
+  font-family: eloquent-jf-pro;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 150px;
+}
+.span2{
+  float: left;
+  margin-left: -30px !important;
+  line-height: 11%;
+  width: .75em;
+  font-family: eloquent-jf-pro;
+  font-style: normal;
+  font-weight: 200;
+  font-size:150px;
+  color: var(--red);
+}
+.addtopspacing{
+  margin-top: 40px;
+}
+
+.contain {
+  position: relative;
+  width: 50%;
+  padding: 0;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 500px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain:hover .image {
+  opacity: 0.3;
+}
+
+.contain:hover .middle {
+  opacity: 1;
+}
+.btn-Black {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--Black);
+  font-style: normal;
+  font-family: eloquent-jf-pro;
+  font-size: 36pt ;
+  color: var(--White);
+  text-align: center;
+}
+
+.contain2 {
+  position: relative;
+  width: 50%;
+  padding: 0;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 500px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain2:hover .image2 {
+  opacity: 0.3;
+}
+
+.contain2:hover .middle2 {
+  opacity: 1;
+}
+.Drop720{
+  display: block;
+}
+@media only screen and (min-width: 1075px) {
+  .links{
+    font-size: 36pt ; 
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .header, .header1, .header2{
+    font-size: 150pt;
+  }
+  .subHeader{
+    font-size: 38pt;
+    margin-top: -60px;
+  }
+  .links{
+    font-size: 30pt ; 
+  }
+  .span1{
+    font-size: 125pt;
+  }
+  .span2{
+    font-size:125pt;
+  }
+  p, .whiteText, .DropTitlesWhiteText{ 
+    font-size: 30px;
+  }
+  .dropTitles{
+    font-size: 40pt ;
+  }
+  .titlesWhitetoRed{
+    font-size: 36pt ;
+  }
+  .FooterText{
+    font-size: 18pt;
+  }
+  .Drop720{
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header, .header1, .header2{
+    font-size: 120pt;
+  }
+  .subHeader{
+    font-size: 36pt;
+    margin-top: -50px;
+  }
+  .links{
+    font-size: 24pt ; 
+  }
+  .span1{
+    font-size: 90pt;
+  }
+  .span2{
+    font-size:90pt;
+  }
+  p, .whiteText, .DropTitlesWhiteText{ 
+    font-size: 24px;
+  }
+  .dropTitles{
+    font-size: 35pt ;
+  }
+  .titlesWhitetoRed{
+    font-size: 30pt ;
+  }
+  .FooterText{
+    font-size: 16pt;
+  }
+  .Drop720{
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .header, .header1, .header2{
+    font-size: 90pt;
+  }
+  .subHeader{
+    font-size: 24pt;
+    margin-top: -30px;
+  }
+  .links{
+    font-size: 20pt ; 
+  }
+  .span1{
+    font-size: 60pt;
+  }
+  .span2{
+    font-size:60pt;
+  }
+  p, .whiteText, .DropTitlesWhiteText{ 
+    font-size: 20px;
+  }
+  .dropTitles{
+    font-size: 30pt ;
+  }
+  .titlesWhitetoRed{
+    font-size: 26pt ;
+  }
+  .FooterText{
+    font-size: 14pt;
+  }
+  .Drop720{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .header, .header1, .header2{
+    font-size: 60pt;
+  }
+  .subHeader{
+    font-size: 20pt;
+    margin-top: -20px;
+  }
+  .links{
+    font-size: 14pt ; 
+  }
+  .span1{
+    font-size: 40pt;
+  }
+  .span2{
+    font-size:40pt;
+  }
+  p, .whiteText, .DropTitlesWhiteText{ 
+    font-size: 16px;
+  }
+  .dropTitles{
+    font-size: 20pt ;
+  }
+  .titlesWhitetoRed{
+    font-size: 20pt ;
+  }
+  .FooterText{
+    font-size: 10pt;
+  }
+  .Drop720{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header, .header1, .header2{
+    font-size: 60pt;
+  }
+  .subHeader{
+    font-size: 18pt;
+    margin-top: -20px;
+  }
+  .links{
+    font-size: 14pt ; 
+  }
+  .span1{
+    font-size: 40pt;
+  }
+  .span2{
+    font-size:40pt;
+  }
+  p, .whiteText, .DropTitlesWhiteText{ 
+    font-size: 16px;
+  }
+  .dropTitles{
+    font-size: 20pt;
+  }
+  .titlesWhitetoRed{
+    font-size: 20pt;
+  }
+  .FooterText{
+    font-size: 10pt;
+  }
+  .Drop720{
+    display: none;
+  }
+}
