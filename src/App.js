@@ -41,7 +41,7 @@ export default function App() {
           <Route path="/GraphicDesign" element={<GraphicDesignPage/>}/>
           <Route path="/Letterpress" element={<LetterpressPage/>}/>
           <Route path="/ComputerScience" element={<ComputerSciencePage/>}/>
-          <Route path="/ContactMe" element={<ContactMePage/>}/>
+          <Route path="/Experience" element={<ContactMePage/>}/>
           <Route path="/ReachOut" element={<RaskogPage/>}/>
 
           <Route path="/Raskog" element={<RaskogPage/>}/>
@@ -63,9 +63,7 @@ export default function App() {
 
           <Route path="/TrailFunds" element={<TrailFundsPage/>}/>
           <Route path="/MyPortfolio" element={<PortfoliosPage/>}/>
-          <Route path="/NY-Limes" element={<NYLimesPage/>}/>
           <Route path="/Blog" element={<BlogPage/>}/>
-          <Route path="/Geezers" element={<GeezersPage/>}/>
 
         </Routes>
       </main>

@@ -38,54 +38,29 @@ function Landing() {
                     <Link to={`/GraphicDesign`}> <div class = {"links"}>Graphic Design</div></Link>
                     <Link to={`/Letterpress`}> <div class = {"links"}>Letterpress</div></Link>
                     <Link to={`/ComputerScience`}> <div class = {"links"}>Computer Science</div></Link>
-                    <Link to={`/ContactMe`}> <div class = {"links"}>Contact Me</div></Link>
+                    <Link to={`/Experience`}> <div class = {"links"}>My Experience</div></Link>
                 </Col>
             </Row>
-                <div>
-                    <div class = {"lines4"}/>
-                    <div class = {"lines5"}/>
-                    <div class = {"lines6"}/>
-                </div>
-            
+           
+            <div class = "BlackBG">
             <Row>
-                <div class="col Drop720">
-                    <div class = "BreathingRoom"/>
-                </div>
                 <Col>
-                <div class = "BreathingRoom Drop720"/>
-                    <p>
-                    <span class = "span1">H</span>ello, my name is Nate and I am a    
-                        creative and tech-savvy individual with a strong passion 
+                <p class = "whiteText addtopspacing">
+                        Hello, my name is Nate and I am a    
+                        creative and  individual with a strong passion 
                         for graphic design, computer science, and the great outdoors. 
                         With a background in art and design, I have always been drawn to the
                         world of graphic design and love using my skills 
                         and creativity to create visually appealing and 
                         effective designs. In addition to my love for
-                        design, I am also interested in computer
-                        science and enjoy learning and exploring 
+                        design, I am also a front end web Developer
+                        and enjoy learning and exploring 
                         new technologies and programming languages.
                         When I’m not busy designing or coding, you can      
                         often find me enjoying the great outdoors and
                         all that nature has to offer.
                     </p>
-                </Col>  
-            </Row>
-            <div class = "BreathingRoom"/>
-            <div class = "BlackBG">
-            <Row>
-                <Col>
-                        <p class = "whiteText addtopspacing">
-                            <span class = "span2">w</span>hether it’s rafting down a raging 
-                            river or hiking through the mountains, I am 
-                            constantly in awe of the natural beauty and 
-                            excitement that the outdoors has to offer.
-                            Being a white water raft guide has truly been a 
-                            life-changing experience, and I am grateful 
-                            for the opportunity to share my passion for 
-                            the outdoors with others.
-                            AHAHHAHAHAH
-                        </p>
-    
+                       
                </Col>
                 <div class = "col Drop720">
                 make not col row
@@ -100,7 +75,7 @@ function Landing() {
                 <Dropdowns/>
                 <div class = {'ContactPadding'}>    
                 <Row> 
-                        <Link to={`/ContactMe`} class = "dropTitles" > Reach out!</Link>
+                        <Link to={`/Experience`} class = "dropTitles" >My Experience</Link>
                    
                 </Row>
                 </div>

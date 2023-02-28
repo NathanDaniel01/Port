@@ -102,3 +102,31 @@ Reachout
 
 Pages undone:
 
+
+Temp:: Storage for DIv element
+     <div>
+                    <div class = {"lines4"}/>
+                    <div class = {"lines5"}/>
+                    <div class = {"lines6"}/>
+                </div>
+            
+            <Row>
+                <div class="col Drop720">
+                    <div class = "BreathingRoom"/>
+                </div>
+                <Col>
+                <div class = "BreathingRoom Drop720"/>
+                     <p class = "whiteText addtopspacing">
+                            <span class = "span2">w</span>hether it’s rafting down a raging 
+                            river or hiking through the mountains, I am 
+                            constantly in awe of the natural beauty and 
+                            excitement that the outdoors has to offer.
+                            Being a white water raft guide has truly been a 
+                            life-changing experience, and I am grateful 
+                            for the opportunity to share my passion for 
+                            the outdoors with others.
+                        </p>
+    <span class = "span2">H</span>
+                </Col>  
+            </Row>
+            <div class = "BreathingRoom"/>
