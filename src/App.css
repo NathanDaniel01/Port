@@ -154,7 +154,7 @@ p{
   font-family: loos-wide, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 26px;
+  font-size: 24px;
   color: var(--White);
   z-index: 10 !important;
   position: relative;
@@ -249,6 +249,11 @@ p{
 .BreathingRoom{
   padding: 100px;
 }
+.leftCol{
+width: 60%;
+
+}
+
 /*
 -=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-
 Paralax
@@ -437,9 +442,20 @@ margin-right: 0 !important;
 .Drop720{
   display: block;
 }
+@media only screen and (min-width: 1400px) {
+  .links{
+    font-size: 36pt ; 
+  }
+  .leftCol{
+    width: 50%;
+  }
+}
 @media only screen and (min-width: 1075px) {
   .links{
     font-size: 36pt ; 
+  }
+  .leftCol{
+    width: 50%;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -460,19 +476,22 @@ margin-right: 0 !important;
     font-size:125pt;
   }
   p, .whiteText, .DropTitlesWhiteText{ 
-    font-size: 26px;
+    font-size: 24px;
   }
   .dropTitles{
-    font-size: 40pt ;
+    font-size: 40pt;
   }
   .titlesWhitetoRed{
-    font-size: 36pt ;
+    font-size: 36pt;
   }
   .FooterText{
     font-size: 18pt;
   }
   .Drop720{
     display: block !important;
+  }
+  .leftCol{
+    width: 55%;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -506,6 +525,9 @@ margin-right: 0 !important;
   }
   .Drop720{
     display: block !important;
+  }
+  .leftCol{
+    width: 70%;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -572,6 +594,9 @@ margin-right: 0 !important;
   }
   .Drop720{
     display: none !important;
+  }
+  .leftCol{
+    width: 80%;
   }
 }
 @media only screen and (max-width: 400px) {

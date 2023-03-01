@@ -43,9 +43,7 @@ function Landing() {
             </Row>
            
             <div class = "BlackBG">
-            <Row>
-                <Col>
-                <p class = "whiteText addtopspacing">
+                <p class = "whiteText addtopspacing leftCol">
                         Hello, my name is Nate and I am a    
                         creative and  individual with a strong passion 
                         for graphic design, computer science, and the great outdoors. 
@@ -60,13 +58,6 @@ function Landing() {
                         often find me enjoying the great outdoors and
                         all that nature has to offer.
                     </p>
-                       
-               </Col>
-                <div class = "col Drop720">
-                make not col row
-                </div>
-
-            </Row>
             </div>
             <ParallaxProvider>
                 <ParallaxDemo/>
