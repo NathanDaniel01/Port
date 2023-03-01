@@ -154,7 +154,7 @@ p{
   font-family: loos-wide, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 26px;
   color: var(--White);
   z-index: 10 !important;
   position: relative;
@@ -460,7 +460,7 @@ margin-right: 0 !important;
     font-size:125pt;
   }
   p, .whiteText, .DropTitlesWhiteText{ 
-    font-size: 30px;
+    font-size: 26px;
   }
   .dropTitles{
     font-size: 40pt ;
