@@ -25,13 +25,6 @@ const ParallaxDemo = () => (
             <img src="./SVG/hills.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={-8}
-        class = "river"
-        >
-            <div>
-            <img src="./SVG/Rivers.svg" alt="" />
-            </div>
-        </Parallax>
         <Parallax speed={-6.6}
         class = "mountains2"
         >

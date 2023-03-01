@@ -261,19 +261,19 @@ Paralax
   z-index: 2 !important;
 }
 .mountains1{
-  margin-top: -2%;
+  margin-top: 0%;
   width: 100vw;
 }
 .mountains2{
-  margin-top: -68%;
+  margin-top: -35%;
   z-index: 2;
 }
 .mountains3{
-  margin-top: -15%;
+  margin-top: -20%;
   z-index: 2;
 }
 .hills{
-  margin-top: -18%;
+  margin-top: -30%;
   z-index: 2;
 }
 .tree1{
@@ -281,17 +281,17 @@ Paralax
   width: 100vw;
 }
 .tree2{
-  margin-top: -80%;
+  margin-top: -50%;
   margin-left: auto;
   margin-right: 0;
   width: 30%;
 }
 .tree3{
-  margin-top: -20%;
+  margin-top: -25%;
   width: 100vw;
 }
 .river{
-  margin-top: -16%;
+  margin-top: 6%;
   width: 65%;
   margin-left: auto;
   margin-right: 0;
