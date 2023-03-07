@@ -9,7 +9,7 @@ footer, header, hgroup, menu, nav, section {
   --Black: #000000;
   --red: #F62E2E;
   --White: #FFFFFF;
-  --Redish: #CF062D;
+  --Redish: #CD2E2C;
 
 }
 @import url("https://use.typekit.net/gze6yme.css");
@@ -274,7 +274,7 @@ Paralax
   z-index: 2;
 }
 .mountains3{
-  margin-top: -20%;
+  margin-top: -15%;
   z-index: 2;
 }
 .hills{
