@@ -46,7 +46,6 @@ function Dropdowns() {
                         type="button"
                         class = "titlesWhitetoRed"
                         >
-                        <Link to={`/GraphicDesign`} class = "titlesWhitetoRed">See more work </Link>
                         </div>
                         <div class="imgFlex">
                             <div  class="contain">
