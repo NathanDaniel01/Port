@@ -11,7 +11,7 @@ const ParallaxDemo = () => (
             <img src="./SVG/cliff_1.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={1}
+        <Parallax speed={0}
         class = "mountains1"
         >
             <div>
