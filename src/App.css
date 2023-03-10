@@ -161,6 +161,7 @@ p{
   padding-top: 50px;
   padding-left: 30px;
   padding-bottom: 50px;
+  margin-bottom: -5% ;
 }
 .FooterText{
   font-family: loos-wide, sans-serif;
@@ -563,6 +564,9 @@ margin-right: 0 !important;
   }
   .Drop720{
     display: none !important;
+  }
+  .padding{
+    margin-top: -18%;
   }
 }
 @media only screen and (max-width: 550px) {
