@@ -85,12 +85,6 @@ function Dropdowns() {
                             and aesthetic qualities of prints produced 
                             using this method.
                         </p>
-                        <div
-                        type="button"
-                        class = "titlesWhitetoRed"
-                        >
-                         <Link to={`/Letterpress`} class = "titlesWhitetoRed">See more Prints</Link>
-                        </div>
                         <div class="imgFlex">
                             <div  class="contain">
                                 <div class="image" style={{width:'100%'}}>will be img</div> 
@@ -101,7 +95,7 @@ function Dropdowns() {
                             <div  class="contain">
                                 <div class="image">will be img</div> 
                                 <div class="middle">
-                                    <Link class="titlesWhitetoRed" to={`/Christmas`}>Christmas</Link>
+                                    <Link class="titlesWhitetoRed" to={`/Rant`}>Rant</Link>
                                 </div>
                             </div>
                             <div  class="contain">
@@ -130,12 +124,6 @@ function Dropdowns() {
                             areas in order to create innovative and 
                             functional solutions for my clients.
                         </p>
-                        <div
-                        type="button"
-                        class = "titlesWhitetoRed"
-                        >
-                        <Link to={`/ComputerScience`} class = "titlesWhitetoRed">See more Code</Link>
-                        </div>
                         <div class="imgFlex">
                             <div  class="contain">
                                 <div class="image" style={{width:'100%'}}>will be img</div> 
@@ -152,7 +140,7 @@ function Dropdowns() {
                             <div  class="contain">
                                 <div class="image">img</div> 
                                 <div class="middle">
-                                    <Link class="titlesWhitetoRed" to={`/NY-Limes`}>Ny-Limes</Link>
+                                    <Link class="titlesWhitetoRed" to={`/FWS`}>FWS</Link>
                                 </div>
                             </div>
                         </div>
