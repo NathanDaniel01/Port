@@ -23,7 +23,10 @@ then when it is fully responsive the text will transition to static
 */
 function Landing() {
     return (
-        <div class = "mainBG">  
+        <div class = "mainBG"> 
+        <a href="#top">
+            <img src="./SVG/Home_Button.svg" alt=""class="nav sticky" style={{width:'50px'}}/>
+            </a>
             <h2 class = {'header1'}>Nathan</h2>
             <h2 class = {'header2'}>Daniel</h2>
             <p class = {'subHeader'}>Web Developer and Graphic Designer</p>
@@ -35,10 +38,11 @@ function Landing() {
                 </Col>
 
                 <Col>
-                    <Link to={`/GraphicDesign`}> <div class = {"links"}>Graphic Design</div></Link>
-                    <Link to={`/Letterpress`}> <div class = {"links"}>Letterpress</div></Link>
-                    <Link to={`/ComputerScience`}> <div class = {"links"}>Computer Science</div></Link>
-                    <Link to={`/Experience`}> <div class = {"links"}>My Experience</div></Link>
+                
+                <a href="#section-1"> <div class = {"links"}>Graphic Design</div></a>
+                <a href="#section-1"> <div class = {"links"}>Letterpress</div></a>
+                <a href="#section-1"> <div class = {"links"}>Computer Science</div></a>
+                <a href="#section-4"> <div class = {"links"}>My Experience</div></a>
                 </Col>
             </Row>
            
@@ -62,11 +66,11 @@ function Landing() {
             <ParallaxProvider>
                 <ParallaxDemo/>
             </ParallaxProvider>
-            <div>
+            <div  id="section-1">
                 <Dropdowns/>
                 <div class = {'ContactPadding'}>    
                 <Row> 
-                        <Link to={`/Experience`} class = "dropTitles" >My Experience</Link>
+                        <Link to={`/Experience`} class = "dropTitles"id="section-4" >My Experience</Link>
                    
                 </Row>
                 </div>

@@ -28,6 +28,18 @@ src: url(https://use.typekit.net/gze6yme.css);
 .mainBG{
   background-color: var(--Background-color);
 }
+.nav{
+  float: left !important;
+  display: block;
+  width:'50px';
+  padding-top: 10px;
+  padding-left: 10px !important;
+  z-index: 10;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
 .header{
   font-style: italic;
   font-family: eloquent-jf-pro;

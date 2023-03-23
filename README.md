@@ -44,7 +44,7 @@ Computer Science
 Letterpress
 Reachout
 
-Pages undone:
+Landing is compleete.
 
 
 Temp:: Storage for DIv element

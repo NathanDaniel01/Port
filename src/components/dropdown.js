@@ -27,7 +27,7 @@ function Dropdowns() {
         <div class = "padding">
             <Accordion>
                 <div class="extrapadding">
-                    <CustomToggle eventKey="0">
+                    <CustomToggle eventKey="0" id="section-0">
                         Graphic Design
                         <div class="line"/>
                     </CustomToggle>
@@ -71,7 +71,7 @@ function Dropdowns() {
                     </Accordion.Collapse>
                 </div>
                 <div class="extrapadding">
-                    <CustomToggle eventKey="1">
+                    <CustomToggle eventKey="1" id="section-1">
                         Letter Press
                         <div class="line"/>
                     </CustomToggle>
@@ -114,7 +114,7 @@ function Dropdowns() {
                         <div class="line"/>
                     </CustomToggle>
 
-                    <Accordion.Collapse eventKey="2">
+                    <Accordion.Collapse eventKey="2" id="section-2">
                     <div class = "BlackBG">
                         <p class = "DropTitlesWhiteText">
                             I have a strong drive to learn and master 
