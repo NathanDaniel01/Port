@@ -1,6 +1,5 @@
 import React from 'react';
 import "./App.css"
-import "./test.css"
 import ParallaxDemo from './components/paralax';
 import { ParallaxProvider} from 'react-scroll-parallax';
 import GraphicDesignBox from './components/GraphicDesignBox';
@@ -9,6 +8,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 import Footer from './components/Footer';
 import Canvas from './components/Canvas';
 import Letters from './components/Letters';
+import Navi from './components/Navi';
 // I am debaiting on making the text static until I get canvas to work. I need time to disect the canvas code
 // Until then,
 /*
@@ -38,11 +38,10 @@ then when it is fully responsive the text will transition to static
 */
 function Landing() {
     return (
-        <div class = "mainBG"> 
-        <div></div>
-        <a href="#top">
-            <img src="./SVG/Home_Button.svg" alt=""class="nav sticky" style={{width:'50px'}}/>
-            </a>
+            <div class = "mainBG"> 
+            <div></div>
+            {//<Navi/>
+}
             <h2 class = {'header1 sticky'}>Nathan</h2>
             <h2 class = {'header2 sticky'}>Daniel</h2>
             <ParallaxProvider>

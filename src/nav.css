@@ -1,0 +1,18 @@
+/* src/App.css */
+.sticky-nav {
+    position: relative;
+    transition: top 0.3s;
+  }
+  
+  .stickya{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    /* Add any other styles you want for the sticky navigation */
+  }
+  
+  .stop-div {
+    /* Style your stop element here, such as setting its height or padding */
+  }

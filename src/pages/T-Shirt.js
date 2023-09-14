@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css"
-import "../indepth.css"
+import "../sub.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
 function TShirt() {

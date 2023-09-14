@@ -27,10 +27,8 @@ import Sayings from "./pages/Sayings"
 import Rant from "./pages/Rant"
 import Portfolios from "./pages/Portfolio"
 import Personal from "./pages/Personal"
-import NYLimes from "./pages/NY-Limes"
 import Christmas from "./pages/Christmas"
 import Blog from "./pages/BlogPages/Blog"
-import Geezeers from "./pages/Geezeers"
 export default function App() {
   return (
    <Router>
@@ -176,19 +174,9 @@ const PortfoliosPage = () => {
     Portfolios()
   )
 };
-const NYLimesPage = () => {
-  return(
-    NYLimes()
-  )
-};
 const BlogPage = () => {
   return(
     Blog()
-  )
-};
-const GeezersPage = () => {
-  return(
-    Geezeers()
   )
 };
 const TrailFundsPage = () => {

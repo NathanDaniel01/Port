@@ -28,15 +28,28 @@ src: url(https://use.typekit.net/gze6yme.css);
 .mainBG{
   background-color: var(--Background-color);
 }
+.center {
+  text-align: center;
+  padding: 10px;
+}
 .header{
-    font-style: italic;
+    font-style: normal;
     font-family: eloquent-jf-pro;
-    font-size: 222px;
-    color: var(--Black);
-    margin-right: 8%;
-    text-align: right;
-    margin-left: auto;
-    margin-top: 80px;
+    font-size: 125px;
+    color: var(--black);
+    margin-top: 120px;
+  }
+  .SubP{
+   width: 50%;
+   margin: auto; 
+   font-size: 20px;
+   margin-bottom: 60px;
+  }
+  Button{
+    margin-left: 50%;
+    height: auto;
+    width: auto;
+    margin-bottom: 100px;
   }
   .images {
     opacity: 1;

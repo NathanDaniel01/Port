@@ -8,9 +8,9 @@ function LetterPressBox(){
         <h5>Letterpress:</h5>
         <div class="imgFlex">
             <div  class="contain L">
-                <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" />
+                <img src="./Imgs/Personal.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Raskog`}>Räskog</Link>
+                    <Link class="titlesWhitetoRed" to={`/Raskog`}>14ers</Link>
                 </div>
             </div>
             <div  class="contain R">
