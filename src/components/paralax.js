@@ -4,13 +4,7 @@ import "../App.css"
 
 const ParallaxDemo = () => (
     <div>
-        <Parallax 
-        speed={-5}
-        class = "cliff">
-            <div>
-            <img src="./SVG/cliff_1.svg" alt="" />
-            </div>
-        </Parallax>
+        
         <Parallax speed={0}
         class = "mountains1"
         >
