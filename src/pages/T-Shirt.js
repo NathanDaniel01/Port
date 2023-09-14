@@ -1,75 +1,47 @@
 import React from "react";
 import "../App.css"
+import "../indepth.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
+import Footer from '../components/Footer';
 function TShirt() {
-  return (
-   <div>
-        <h2 class = 'header1'>T-Shirt</h2>
-        <p>
-            Some animated Bull shit that looks cool
-        </p>
-        <div class="imgFlex">
-            <div  class="contain">
-                <img src="./Imgs/six_pack_1.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Raskog`}>Räskog</Link>
-                </div>
-            </div>
-            <div  class="contain">
-                <img src="./Imgs/Detail_9.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/SixPack`}>6-pack</Link>
-                </div>
-            </div>
-            <div  class="contain">
-                <img src="./Imgs/six_pack_2.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Childrens`}>Childrens</Link>
-                </div>
-            </div>
-        </div>
-        <div class="imgFlex">
-            <div  class="contain">
-            <img src="./Imgs/six_pack_3.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Raskog`}>T-Shirt</Link>
-                </div>
-            </div>
-            <div  class="contain">
-                <img src="./Imgs/Detail_5.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/SixPack`}>Icons</Link>
-                </div>
-            </div>
-            <div  class="contain">
-                <img src="./Imgs/Detail_8.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Childrens`}>Cluster</Link>
-                </div>
-            </div>
-        </div>
-        <div class="imgFlex">
-            <div  class="contain">
-                <img src="./Imgs/Detail_9.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Raskog`}>Hello</Link>
-                </div>
-            </div>
-            <div  class="contain">
-            <img src="./Imgs/Detail_7.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/SixPack`}>Interview</Link>
-                </div>
-            </div>
-            <div  class="contain">
-                <img src="./Imgs/Detail_4.jpg" alt=""class="image" style={{width:'100%'}}/>
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Childrens`}>Police</Link>
-                </div>
-            </div>
-        </div>
-    </div>
-  );
-}
-
+    return (
+        <div class = "mainBG">
+         <Link to={`/`}>
+         <a href="#top">
+                 <img src="./SVG/Home_Button.svg" alt=""class="nav sticky" style={{width:'50px'}}/>
+         </a>
+         </Link>
+             <div class="imgFlex">
+                 <div>
+                     <h2 class = 'header1 header1_sub'>T Shirt</h2>
+                     <p class = 'P_sub'>
+             Create a new design for a 6 pack of beer from Samuel Smith Brewery, using a Victorian style packaging that is visually appealing and maintains the brewery's roots. The existing design is poorly designed and in need of an update.
+             The 6 pack will be purchased by consumers of craft beer, who are looking for unique and visually appealing packaging.
+             The project will involve creating a new design for the 6 pack, including the packaging itself as well as any labels or branding elements. The design should be inspired by Victorian style and incorporate elements of the brewery's history and heritage.
+             The design should be sophisticated and elegant, reflecting the quality of the beer and the history of the brewery. It should also be modern and visually appealing, appealing to a contemporary audience.
+             A high-resolution digital file of the completed design, including any necessary mockups or prototypes.
+             The project was completed within 4-6 weeks.
+                     </p>
+                 </div>
+             <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="images" style={{width:'50%'}}/>
+             </div>
+             <div class="imgFlex">
+                 <img src="./Imgs/SixPack/six_pack_1.jpg" alt=""class="image" style={{width:'33%'}}/>
+                 <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" style={{width:'33%'}}/>
+                 <img src="./Imgs/SixPack/six_pack_2.jpg" alt=""class="image" style={{width:'33%'}}/>
+             </div>
+             <div class="imgFlex">
+                 <img src="./Imgs/SixPack/six_pack_3.jpg" alt=""class="image" style={{width:'33%'}}/>
+                 <img src="./Imgs/SixPack/Detail_5.jpg" alt=""class="image" style={{width:'33%'}}/>
+                 <img src="./Imgs/SixPack/Detail_8.jpg" alt=""class="image" style={{width:'33%'}}/>
+             </div>
+             <div class="imgFlex">
+                 <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" style={{width:'33%'}}/>
+                 <img src="./Imgs/SixPack/Detail_7.jpg" alt=""class="image" style={{width:'33%'}}/>
+                 <img src="./Imgs/SixPack/Detail_4.jpg" alt=""class="image" style={{width:'33%'}}/>
+             </div>
+             <Footer/>
+         </div>
+       );
+     }
 export default TShirt;

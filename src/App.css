@@ -58,6 +58,9 @@ src: url(https://use.typekit.net/gze6yme.css);
   font-size: 200px;
   color: var(--Black);
 }
+.header1_sub{
+  position:absolute;
+}
 .header2{
   margin-left: 5%;
   font-style: italic;
@@ -83,13 +86,13 @@ a:active { text-decoration: none; }
 .links{
   font-style: normal;
   font-family: eloquent-jf-pro;
-  font-size: 36pt ;
+  font-size: 26pt ;
   color: var(--Black);
   text-align: right;
   margin-left: auto;
   margin-right: 0;
-  margin-top:-50px;
-  margin-bottom: 50px;
+  margin-top:-140px;
+  margin-bottom: 140px;
   padding-right: 50px;
   text-decoration: none; 
 
@@ -98,24 +101,24 @@ a:active { text-decoration: none; }
   color: var(--red);
 }
 .lines1{
-    margin-top: -10%;
-    margin-bottom: 60px;
+    margin-top: -15%;
+    margin-bottom: 45px;
     border-top: solid;
     border-width: 3px;
     border-color: var(--black);
     width: 105%;
 }
 .lines2{
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 15px;
+  margin-bottom: 45px;
   border-top: solid;
   border-width: 3px;
   border-color: var(--black);
   width: 90%;
 }
 .lines3{
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 15px;
+  margin-bottom: 45px;
   border-top: solid;
   border-width: 3px;
   border-color: var(--black);
@@ -161,6 +164,9 @@ p{
   font-size: 30px;
   color: var(--Black);
   margin: 30px;
+}
+.P_sub{
+padding-top: 250px;
 }
 .whiteText{
   font-family: loos-wide, sans-serif;
@@ -280,23 +286,23 @@ Paralax
   z-index: 2 !important;
 }
 .mountains1{
-  margin-top: 0%;
+  margin-top: -30%;
   width: 100vw;
 }
 .mountains2{
-  margin-top: -35%;
-  z-index: 2;
-}
-.mountains3{
-  margin-top: -15%;
-  z-index: 2;
-}
-.hills{
   margin-top: -30%;
   z-index: 2;
 }
+.mountains3{
+  margin-top: -25%;
+  z-index: 2;
+}
+.hills{
+  margin-top: -35%;
+  z-index: 2;
+}
 .tree1{
-  margin-top: -50%;
+  margin-top: -60%;
   width: 100vw;
 }
 .tree2{
@@ -306,7 +312,7 @@ Paralax
   width: 30%;
 }
 .tree3{
-  margin-top: -25%;
+  margin-top: -30%;
   width: 100vw;
 }
 .river{
@@ -381,7 +387,11 @@ margin-right: 0 !important;
   width: 50%;
   padding: 0;
 }
+.images{
+  object-fit: cover;
+  object-position: 80% 100%;
 
+}
 .image {
   opacity: 1;
   display: block;
@@ -391,6 +401,7 @@ margin-right: 0 !important;
   backface-visibility: hidden;
   flex: 1 0 auto;
   aspect-ratio: 1 / 1 ;
+  object-fit: cover;
 }
 
 .middle {
@@ -461,7 +472,7 @@ margin-right: 0 !important;
 }
 @media only screen and (min-width: 1400px) {
   .links{
-    font-size: 36pt ; 
+    font-size: 26pt ; 
   }
   .leftCol{
     width: 50%;
@@ -469,22 +480,25 @@ margin-right: 0 !important;
 }
 @media only screen and (min-width: 1075px) {
   .links{
-    font-size: 36pt ; 
+    font-size: 26pt ; 
   }
   .leftCol{
     width: 50%;
   }
 }
 @media only screen and (min-width: 1000px) {
-  .header, .header1, .header2{
-    font-size: 150pt;
+  .header, .header2{
+    font-size: 90pt;
+  }
+  .header1{
+    font-size: 90pt;
   }
   .subHeader{
-    font-size: 38pt;
-    margin-top: -60px;
+    font-size: 20pt;
+    margin-top: -45px;
   }
   .links{
-    font-size: 30pt ; 
+    font-size: 26pt ; 
   }
   .span1{
     font-size: 125pt;
@@ -493,7 +507,7 @@ margin-right: 0 !important;
     font-size:125pt;
   }
   p, .whiteText, .DropTitlesWhiteText{ 
-    font-size: 24px;
+    font-size: 20px;
   }
   .dropTitles{
     font-size: 40pt;
@@ -529,7 +543,7 @@ margin-right: 0 !important;
     font-size:90pt;
   }
   p, .whiteText, .DropTitlesWhiteText{ 
-    font-size: 24px;
+    font-size: 20px;
   }
   .dropTitles{
     font-size: 35pt ;

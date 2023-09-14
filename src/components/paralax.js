@@ -5,49 +5,49 @@ import "../App.css"
 const ParallaxDemo = () => (
     <div>
         
-        <Parallax speed={0}
+        <Parallax speed={30}
         class = "mountains1"
         >
             <div>
             <img src="./SVG/mountains_1.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={-5}
+        <Parallax speed={5}
         class = "hills"
         >
             <div>
             <img src="./SVG/hills.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={-6.6}
+        <Parallax speed={2}
         class = "mountains2"
         >
             <div>
             <img src="./SVG/mountains_2.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={-3}
+        <Parallax speed={7}
         class = "mountains3"
         >
             <div>
             <img src="./SVG/mountains_3.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={-8}
+        <Parallax speed={15}
         class = "tree1"
         >
             <div>
             <img src="./SVG/trees_1.svg" alt="" />
             </div>
         </Parallax>
-        <Parallax speed={-17}
+        <Parallax speed={4}
         class = "tree2"
         >
             
             <img src="./SVG/trees_2.svg" alt="" />
 
         </Parallax>
-        <Parallax speed={-10}
+        <Parallax speed={10}
         class = "tree3"
         >
             <div>
