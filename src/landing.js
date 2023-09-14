@@ -39,15 +39,14 @@ then when it is fully responsive the text will transition to static
 function Landing() {
     return (
             <div class = "mainBG"> 
-            <div></div>
-            {//<Navi/>
-}
+            <Navi/>
             <h2 class = {'header1 sticky'}>Nathan</h2>
             <h2 class = {'header2 sticky'}>Daniel</h2>
             <ParallaxProvider>
                     <ParallaxDemo/>
                 </ParallaxProvider>
-            <div class = 'externalspacertest'/>
+            <div class = 'externalspacertest'/> 
+            <div id="stopHere" className="stop-div"/>
            <GraphicDesignBox/>
            <div class='RedBG'/>
            <LetterPressBox/>

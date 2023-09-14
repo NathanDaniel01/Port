@@ -1,6 +1,5 @@
-// src/StickyNav.js
 import React, { useState, useEffect } from 'react';
-import '../nav.css'
+import "../nav.css"
 const Navi = () => {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -11,7 +10,14 @@ const Navi = () => {
       const targetPosition = targetElement.getBoundingClientRect().top;
 
       // Determine if the navigation bar should be sticky
-      setIsSticky(targetPosition < 0);
+      if (targetPosition <= 0){
+        setIsSticky(true)
+       // console.log(isSticky)
+      }
+      if(targetPosition > 0){
+        setIsSticky(false)
+       // console.log(isSticky)
+    }
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -22,14 +28,10 @@ const Navi = () => {
   }, []);
 
   return (
-    <div className="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+    <nav className={`sticky-nav ${isSticky ? 'stickya' : ''}`}>
+      {/* Your navigation links */}
+<p>Nathan</p>
+    </nav>
   );
 };
 
