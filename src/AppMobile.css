@@ -1,0 +1,46 @@
+/*900 750 500 400*/
+@media (min-width: 900px) {
+    .header1, .header2{
+        font-size: 150px;
+    }
+}
+@media (max-width: 900px) {
+    .header1, .header2{
+        font-size: 100px;
+    }
+    .header2{
+        margin-top: 185px;
+    }
+}
+@media (max-width: 750px) {
+    .header1, .header2{
+        font-size: 85px;
+    }
+    .header2{
+        margin-top: 165px;
+    }
+}
+@media (max-width: 600px) {
+    .header1, .header2{
+        font-size: 65px;
+    }
+    .header2{
+        margin-top: 125px;
+    }
+}
+@media (max-width: 500px) {
+    .header1, .header2{
+        font-size: 55px;
+    }
+    .header2{
+        margin-top: 125px;
+    }
+}
+@media (max-width: 400px) {
+    .header1, .header2{
+        font-size: 50px;
+    }
+    .header2{
+        margin-top: 125px;
+    }
+}

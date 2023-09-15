@@ -48,8 +48,8 @@ const Navi = () => {
             <Link to={`/LostDog`}>
                 <a href="#Top">LostDog</a>
             </Link>
-            <Link to={`/6-Pack`}>
-                <a href="#Top">6-Pack</a>
+            <Link to={`/SixPack`}>
+                <a href="#Top">SixPack</a>
             </Link>
             <Link to={`/Folly`}>
                 <a href="#Top">Folly</a>

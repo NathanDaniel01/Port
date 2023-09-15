@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css"
+import "./AppMobile.css"
 import ParallaxDemo from './components/paralax';
 import { ParallaxProvider} from 'react-scroll-parallax';
 import GraphicDesignBox from './components/GraphicDesignBox';

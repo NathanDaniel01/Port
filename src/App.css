@@ -1,16 +1,25 @@
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
+body, html{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
 }
+.container {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --Background-color: #FEF6F4;
   --Black: #000000;
   --red: #F62E2E;
   --White: #FFFFFF;
   --Redish: #CD2E2C;
-
+  
 }
 @import url("https://use.typekit.net/gze6yme.css");
 @font-face {
@@ -28,6 +37,8 @@ src: url(https://use.typekit.net/gze6yme.css);
 .mainBG{
   background-color: var(--Background-color);
   position: absolute;
+  width: 100% !important;
+  margin-right: -12px!;
 }
 .RedBG{
   background-color: var(--Redish);
@@ -255,3 +266,4 @@ a:active { text-decoration: none; }
 .links:hover{
   color: var(--red);
 }
+/*900 750 500 400*/
