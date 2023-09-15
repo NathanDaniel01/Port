@@ -113,3 +113,65 @@ src: url(https://use.typekit.net/gze6yme.css);
     background-color: #ddd;
     color: var(--Redish)
   }
+
+  @media screen and (max-width: 750px) {
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+    }
+
+    .hamburger .bar {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+
+    .hamburger.open .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.open .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .nav-links {
+        /* New styles for popping out from the left */
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in-out;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #333;
+        width: 30%; /* Adjust the width as needed */
+        z-index: 100;
+        text-align: left;
+      }
+  
+      .nav-links.open {
+        transform: translateX(0);
+      }
+
+    .nav-links li {
+      padding: 10px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+    }
+  }

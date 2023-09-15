@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 
 const Navi = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   //const [isGD, setisGD] = useState(false); for later use
 
   useEffect(() => {
@@ -24,17 +25,32 @@ const Navi = () => {
        // console.log(isSticky)
     }
     };
+    const handleResize = () => {
+        if (window.innerWidth >= 750) {
+          setIsMobileNavOpen(false);
+        }
+      };
+      window.addEventListener('resize', handleResize);
+      window.addEventListener('scroll', handleScroll);
 
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+    const toggleMobileNav = () => {
+        setIsMobileNavOpen(!isMobileNavOpen);
+      };
 
   return (
     <nav className={`sticky-nav ${isSticky ? 'stickya' : ''}`}>
-    <ul>
+     <div className="nav-header">
+        <button className="hamburger" onClick={toggleMobileNav}>
+          <div className={`bar ${isMobileNavOpen ? 'open' : ''}`}></div>
+          <div className={`bar ${isMobileNavOpen ? 'open' : ''}`}></div>
+          <div className={`bar ${isMobileNavOpen ? 'open' : ''}`}></div>
+        </button>
+        <ul className={`nav-links ${isMobileNavOpen ? 'open' : ''}`}>
       <li><a class="Home"  href="#">Nathan Daniel</a></li>
       <li className="dropdown">
         <a class="dropdownItem" href="#GD">Graphic Design </a>
@@ -71,6 +87,7 @@ const Navi = () => {
       <li><a href="#">Reach Out</a></li>
       <li><a href="#">Resume</a></li>
     </ul>
+     </div>
   </nav>
   );
 };
