@@ -48,6 +48,8 @@ src: url(https://use.typekit.net/gze6yme.css);
   position: fixed;
   top: 0;
 }
+
+
 .header1{
   margin-left: 8%;
   position: fixed;
@@ -221,6 +223,7 @@ Paralax
 }
 .titlesWhitetoRed{
   font-style: normal;
+  text-decoration: none !important;
   font-family: eloquent-jf-pro;
   font-size: 36pt ;
   color: var(--White);

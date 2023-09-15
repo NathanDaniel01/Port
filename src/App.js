@@ -14,10 +14,10 @@ import ComputerScience from "./pages/ComputerScience";
 import SixPack from "./pages/SixPack";
 import Childrens from "./pages/Childrens";
 import TShirt from "./pages/T-Shirt";
-import Police from "./pages/Police"
+import Folly from "./pages/Folly"
 import Hello from "./pages/Hello"
 import Icons from "./pages/Icons"
-import Interview from "./pages/Interview"
+import Kunikos from "./pages/Kunikos"
 import Cluster from "./pages/Cluster"
 import ContactMe from "./pages/ContactMe"
 import Zine from "./pages/Zine"
@@ -27,7 +27,7 @@ import Sayings from "./pages/Sayings"
 import Rant from "./pages/Rant"
 import Portfolios from "./pages/Portfolio"
 import Personal from "./pages/Personal"
-import Christmas from "./pages/Christmas"
+import LostDog from "./pages/LostDog"
 import Blog from "./pages/BlogPages/Blog"
 export default function App() {
   return (
@@ -44,17 +44,17 @@ export default function App() {
 
           <Route path="/Raskog" element={<RaskogPage/>}/>
           <Route path="/SixPack" element={<SixPackPage />}/>
-          <Route path="/Police" element={<PolicePage/>}/>
+          <Route path="/Folly" element={<FollyPage/>}/>
           <Route path="/Childrens" element={<ChildrensPage/>}/>
           <Route path="/Icons" element={<IconsPage/>}/>
           <Route path="/T-Shirt" element={<TShirtPage/>}/>
           <Route path="/Cluster" element={<ClusterPage/>}/>
           <Route path="/Hello" element={<HelloPage/>}/>
-          <Route path="/Interview" element={<InterviewPage/>}/>
+          <Route path="/Kunikos" element={<KunikosPage/>}/>
 
           <Route path="/Zine" element={<ZinePage/>}/>
           <Route path="/Personal" element={<PersonalPage/>}/>
-          <Route path="/Christmas" element={<ChristmasPage/>}/>
+          <Route path="/LostDog" element={<LostDogPage/>}/>
           <Route path="/Rant" element={<RantPage/>}/>
           <Route path="/Wedding" element={<WeddingPage/>}/>
           <Route path="/Sayings" element={<SayingsPage/>}/>
@@ -124,14 +124,14 @@ const HelloPage = () => {
     Hello()
   )
 };
-const PolicePage = () => {
+const FollyPage = () => {
   return(
-    Police()
+    Folly()
   )
 };
-const InterviewPage = () => {
+const KunikosPage = () => {
   return(
-    Interview()
+    Kunikos()
   )
 };
 const ClusterPage = () => {
@@ -159,9 +159,9 @@ const SayingsPage = () => {
     Sayings()
   )
 };
-const ChristmasPage = () => {
+const LostDogPage = () => {
   return(
-    Christmas()
+    LostDog()
   )
 };
 const PersonalPage = () => {

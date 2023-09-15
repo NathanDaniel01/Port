@@ -5,11 +5,11 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 import Footer from '../components/Footer';
 function Raskog() {
   return (
-    <div class = "mainBG">
- <Link to={`/`}>
- <a href="#top">
+    <div id="Top" class = "mainBG">
+  <Link to={`/`}>
+  <a href="#top">
          <img src="./SVG/Home_Button.svg" alt=""class="nav sticky" style={{width:'50px'}}/>
- </a>
+  </a>
  </Link>
      <h1 class = "header center">Räskog</h1>
              <p class = 'SubP center'>

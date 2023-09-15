@@ -3,10 +3,10 @@ import "../App.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
 
-function Christmas() {
+function LostDog() {
   return (
    <div>
-        <h2 class = 'header1'>Christmas</h2>
+        <h2 class = 'header1'>LostDog</h2>
         <p>
         Create a new design for a 6 pack of beer from Samuel Smith Brewery, using a Victorian style packaging that is visually appealing and maintains the brewery's roots. The existing design is poorly designed and in need of an update.
         The 6 pack will be purchased by consumers of craft beer, who are looking for unique and visually appealing packaging.
@@ -35,4 +35,4 @@ function Christmas() {
   );
 }
 
-export default Christmas;
+export default LostDog;

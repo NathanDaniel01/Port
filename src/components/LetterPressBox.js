@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 
 function LetterPressBox(){
     return(
-    <div class = "Box"> 
+    <div id="LP"class = "Box"> 
         <h5>Letterpress:</h5>
         <div class="imgFlex">
             <div  class="contain L">
