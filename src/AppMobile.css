@@ -12,23 +12,9 @@
         margin-top: 185px;
     }
 }
-@media (min-width: 750px) {
-    .header1, .header2{
-        font-size: 85px;
-    }
-    #bigNav{
-        visibility: visible;
-    }
-    .header2{
-        margin-top: 165px;
-    }
-}
 @media (max-width: 750px) {
     .header1, .header2{
         font-size: 85px;
-    }
-    #bigNav{
-        visibility: none;
     }
     .header2{
         margin-top: 165px;
