@@ -59,10 +59,17 @@
        margin: auto;
        height: 80% !important;
       }
+      .L,.R{
+        margin:auto;
+        margin-top: 10px;
+      }
       .imgFlex {
         width: 100%;
           display:block;
      }
+     .contain {
+      width: 75%;
+    }
 }
 
 @media (max-width: 600px) {
