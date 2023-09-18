@@ -13,16 +13,16 @@ import Navi from './components/Navi';
 function Landing() {
     return (
             <div class = "mainBG"> 
-                <Navi/>
                 <h2 class = {'header1 sticky'}>Nathan</h2>
                 <h2 class = {'header2 sticky'}>Daniel</h2>
                 <ParallaxProvider>
                     <ParallaxDemo/>
                 </ParallaxProvider>
                 <div class = 'externalspacertest'/> 
+                <Navi/>
                 <div id="stopHere" className="stop-div"/>
                 <GraphicDesignBox id="GD"/>
-                <div class='RedBG'/>
+                <div class='RedBG2'/>
                 <LetterPressBox id="LP"/>
                 <Footer/>
         </div>

@@ -25,7 +25,7 @@ const ParallaxDemo = () => (
             <div>
             <img src="./SVG/trees_3.svg" alt="" />
             </div>
-            <div class = "RedBG"/>
+            <div class = "RedBG1"/>
             
         </Parallax>
         

@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 const Navi = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false); 
   //const [isGD, setisGD] = useState(false); for later use
 
   useEffect(() => {
@@ -41,7 +42,10 @@ const Navi = () => {
     const toggleMobileNav = () => {
         setIsMobileNavOpen(!isMobileNavOpen);
       };
-
+    
+      const toggleDropdown = () => {
+        setShowDropdown(!showDropdown);
+      };
   return (
     <nav className={`sticky-nav ${isSticky ? 'stickya' : ''}`}>
      <div className="nav-header">
@@ -53,7 +57,7 @@ const Navi = () => {
         <ul className={`nav-links ${isMobileNavOpen ? 'open' : ''}`}>
       <li><a class="Home"  href="#">Nathan Daniel</a></li>
       <li className="dropdown">
-        <a class="dropdownItem" href="#GD">Graphic Design </a>
+        <a class="dropdownItem"  href="#GD" onClick={toggleDropdown}>Graphic Design </a>
         <div className="dropdown-content">
             <Link to={`/Raskog`}>
                 <a href="#Top">Raskog</a>

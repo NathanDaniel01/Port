@@ -40,13 +40,16 @@ src: url(https://use.typekit.net/gze6yme.css);
   width: 100% !important;
   margin-right: -12px!;
 }
-.RedBG{
+.RedBG1, .RedBG2{
   background-color: var(--Redish);
   height: 15vw;
   width: 100%;
   z-index: 8 !important;
   position: relative;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
+
 .nav{
   float: left !important;
   display: block;
@@ -155,10 +158,6 @@ Paralax
   width: 100vw;
   z-index: 10 !important;
   position: absolute;
-}
-.paralaxSpacer{
-  margin-top: 25%;
-  margin-bottom: 0%;
 }
 .externalspacertest{
   margin-top: 15%;

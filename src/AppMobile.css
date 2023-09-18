@@ -1,7 +1,18 @@
 /*900 750 500 400*/
+:root {
+    --Background-color: #FEF6F4;
+    --Black: #000000;
+    --red: #F62E2E;
+    --White: #FFFFFF;
+    --Redish: #CD2E2C;
+    
+  }
 @media (min-width: 900px) {
     .header1, .header2{
         font-size: 150px;
+    }
+    .titlesWhitetoRed{
+        font-size: 36pt ;
     }
 }
 @media (max-width: 900px) {
@@ -11,7 +22,20 @@
     .header2{
         margin-top: 185px;
     }
+    .titlesWhitetoRed{
+        font-size: 30pt ;
+    }
+    .paralaxBox{
+        margin-top: 30%;
+      }
+      .RedBG1{
+        height: 80vw;
+      }
+      .RedBG2{
+        height: 20vw;
+      }
 }
+
 @media (max-width: 750px) {
     .header1, .header2{
         font-size: 85px;
@@ -19,15 +43,38 @@
     .header2{
         margin-top: 165px;
     }
+    .titlesWhitetoRed{
+        font-size: 28pt ;
+    }
+    .paralaxBox{
+        margin-top: 50%;
+      }
 }
 
 @media (max-width: 600px) {
     .header1, .header2{
-        font-size: 65px;
+        font-size: 55px;
     }
     .header2{
         margin-top: 125px;
     }
+    .titlesWhitetoRed{
+        font-size: 20pt ;
+    }
+    h5{
+        font-size: 45px !important;
+      }
+      .imgFlex {
+        width: 100%;
+        display:block;
+      }
+      .L,.R{
+        margin:auto;
+        margin-top: 10px;
+      }
+      .contain {
+        width: 75%;
+      }
 }
 @media (max-width: 500px) {
     .header1, .header2{
@@ -36,12 +83,49 @@
     .header2{
         margin-top: 125px;
     }
+    .titlesWhitetoRed{
+        font-size: 18pt ;
+    }
+    .paralaxBox{
+        margin-top: 80%;
+      }
+    .RedBG1{
+        height: 80vw;
+      }
+      .externalspacertest{
+        height: 300px;
+      }
+      h5{
+        font-size: 2.5em !important; /*Trying out other unit*/
+      }
+      
 }
 @media (max-width: 400px) {
     .header1, .header2{
-        font-size: 50px;
+        font-size: 55px;
     }
     .header2{
         margin-top: 125px;
     }
+    .titlesWhitetoRed{
+        font-size: 18pt ;
+    }
+    .paralaxBox{
+        margin-top: 70%;
+      }
+      .RedBG1{
+        height: 90vw;
+      }
+      .RedBG2{
+        height: 20vw;
+      }
+      .externalspacertest{
+        height: 250px;
+      }
+      h5{
+        font-size: 2em !important;
+      }
+      .tree3{
+        margin-top: 0%;
+      }
 }
