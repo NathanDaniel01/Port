@@ -1,0 +1,89 @@
+/*900 750 500 400*/
+:root {
+    --Background-color: #FEF6F4;
+    --Black: #000000;
+    --red: #F62E2E;
+    --White: #FFFFFF;
+    --Redish: #CD2E2C;
+    
+  }
+@media (min-width: 900px) {
+       .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    .nav-links li {
+        padding: auto;
+      }
+      .nav-links a {
+        color: var(--Background-color);
+        text-decoration: none;
+      }
+}
+
+@media (max-width: 750px) {
+.desktop {
+    display: none;
+}
+.mobile {
+    display:block;
+    margin: auto;
+    }
+    .dropdownItem , ul a{
+        font-size: 20px;
+      }
+      .nav-links {
+        /* New styles for popping out from the left */
+        width: 40%; /* Adjust the width as needed */
+      }
+      .nav-links li {
+        padding: 20px;
+      }
+      .nav-links a {
+        color: var(--Redish);
+        text-decoration: none;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown-content a:hover {
+        color: var(--Redish)
+      }  
+
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        /* New styles for popping out from the left */
+        width: 45%; /* Adjust the width as needed */
+      }
+      .dropdownItem, ul a{
+        font-size: 18px;
+      }
+}
+@media (max-width: 500px) {
+    .nav-links {
+        /* New styles for popping out from the left */
+        width: 55%; /* Adjust the width as needed */
+      }
+}
+@media (max-width: 400px) {
+    .nav-links {
+        /* New styles for popping out from the left */
+        width: 60%; /* Adjust the width as needed */
+      }
+      .dropdownItem , ul a{
+        font-size: 16px;
+      }
+      
+}

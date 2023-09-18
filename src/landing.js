@@ -22,7 +22,6 @@ function Landing() {
                 <Navi/>
                 <div id="stopHere" className="stop-div"/>
                 <GraphicDesignBox id="GD"/>
-                <div class='RedBG2'/>
                 <LetterPressBox id="LP"/>
                 <Footer/>
         </div>

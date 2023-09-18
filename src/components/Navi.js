@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../nav.css"
+import "../navResponcive.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 
 // FOR V2 https://codepen.io/piyushpd139/pen/gOYvZPG
@@ -54,8 +55,9 @@ const Navi = () => {
           <div className={`bar ${isMobileNavOpen ? 'open' : ''}`}></div>
           <div className={`bar ${isMobileNavOpen ? 'open' : ''}`}></div>
         </button>
+        <a class="Home mobile"  href="#">Nathan Daniel</a>
         <ul className={`nav-links ${isMobileNavOpen ? 'open' : ''}`}>
-      <li><a class="Home"  href="#">Nathan Daniel</a></li>
+      <li><a class="Home desktop"  href="#">Nathan Daniel</a></li>
       <li className="dropdown">
         <a class="dropdownItem"  href="#GD" onClick={toggleDropdown}>Graphic Design </a>
         <div className="dropdown-content">
@@ -80,12 +82,20 @@ const Navi = () => {
         </div>
       </li>
       <li className="dropdown">
-        <a class="dropdownItem" href="#LP">Letterpress </a>
+        <a class="dropdownItem" href="#LP" onClick={toggleDropdown}>Letterpress </a>
         <div className="dropdown-content">
-          <a href="#">14ers</a>
-          <a href="#">Rant</a>
-          <a href="#">ThankYou</a>
-          <a href="#">Zine</a>
+            <Link to={`/`}>
+                <a href="#">14ers</a>
+            </Link>
+            <Link to={`/`}> 
+                <a href="#">Rant</a>
+            </Link>
+            <Link to={`/`}>   
+                <a href="#">ThankYou</a>
+            </Link>
+            <Link to={`/Zine`}>
+                <a href="#Top">Zine</a>
+            </Link>
         </div>
       </li>
       <li><a href="#">Reach Out</a></li>
