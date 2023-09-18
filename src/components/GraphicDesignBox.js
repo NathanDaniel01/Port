@@ -44,7 +44,7 @@ function GraphicDesignBox(){
             </div>   
         </div>  
         <div class="imgFlex">
-            <div  class="contain" style={{ margin: "5px 5px 120px auto"}}>
+            <div  class="contain Bottom L" >
                 <Link to={`/Folly`}>
                     <img src="./Imgs/Folly.jpg" alt=""class="image" />
                     <div class="middle">
@@ -52,7 +52,7 @@ function GraphicDesignBox(){
                     </div>
                 </Link>
             </div>
-            <div  class="contain" style={{ margin: "5px auto 120px 5px"}}>
+            <div  class="contain Bottom R" >
                 <Link to={`/Cluster`}>
                     <img src="./Imgs/Cluster.jpg" alt=""class="image" />
                     <div class="middle">

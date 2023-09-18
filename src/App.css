@@ -188,6 +188,9 @@ Paralax
 .R{
   margin: 5px auto 5px 5px;
 }
+.Bottom{
+  margin-bottom: 120px;
+}
 .contain {
   position: relative;
   width: 40%;

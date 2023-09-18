@@ -142,12 +142,21 @@ src: url(https://use.typekit.net/gze6yme.css);
 
     .hamburger .bar {
       width: 30px;
-      height: 3px;
+      height: 4px;
       background-color: white;
       margin: 6px 0;
       transition: 0.4s;
+      border-radius: 5px;
     }
 
+    .hamburger.open .bar{
+        width: 30px;
+        height: 4px;
+        background-color: var(--Black);
+        margin: 6px 0;
+        transition: 0.4s;
+        border-radius: 5px;
+      }
     .hamburger.open .bar:nth-child(1) {
       transform: rotate(-45deg) translate(-5px, 6px);
     }
@@ -162,7 +171,7 @@ src: url(https://use.typekit.net/gze6yme.css);
 
     .nav-links {
         /* New styles for popping out from the left */
-        transform: translateX(-100%);
+        transform: translateX(-150%);
         transition: transform 0.5s ease-in-out;
         position: fixed;
         margin-top: 50px;
@@ -170,7 +179,8 @@ src: url(https://use.typekit.net/gze6yme.css);
         left: 0;
         bottom: 0;
         background-color: #333;
-        width: 30%; /* Adjust the width as needed */
+        box-shadow: 2px 2px 5px #0000003f;
+        width: 50%; /* Adjust the width as needed */
         z-index: 12;
         text-align: left;
       }
