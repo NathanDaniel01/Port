@@ -52,6 +52,14 @@
     .paralaxBox{
         margin-top: 50%;
       }
+      .image {
+       margin: auto;
+       height: 80% !important;
+      }
+      .imgFlex {
+        width: 100%;
+          display:block;
+     }
 }
 
 @media (max-width: 600px) {

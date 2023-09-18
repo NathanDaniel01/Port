@@ -10,13 +10,13 @@ function LetterPressBox(){
             <div  class="contain L">
                 <img src="./Imgs/Personal.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Raskog`}>14ers</Link>
+                    <Link class="titlesWhitetoRed" to={`/Personal`}>14ers</Link>
                 </div>
             </div>
             <div  class="contain R">
                 <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/SixPack`}>6-pack</Link>
+                    <Link class="titlesWhitetoRed" to={`/Rant`}>Rant</Link>
                 </div>
             </div>   
         </div>  
@@ -24,13 +24,13 @@ function LetterPressBox(){
             <div  class="contain Bottom L">
                 <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Raskog`}>Räskog</Link>
+                    <Link class="titlesWhitetoRed" to={`/Wedding`}>Wedding</Link>
                 </div>
             </div>
             <div  class="contain Bottom R">
                 <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/SixPack`}>6-pack</Link>
+                    <Link class="titlesWhitetoRed" to={`/Zine`}>Zine</Link>
                 </div>
             </div>   
         </div>     

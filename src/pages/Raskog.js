@@ -3,14 +3,11 @@ import "../App.css"
 import "../sub.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
+import Subnav from "../components/subnav";
 function Raskog() {
   return (
     <div id="Top" class = "mainBG">
-  <Link to={`/`}>
-  <a href="#top">
-         <img src="./SVG/Home_Button.svg" alt=""class="nav sticky" style={{width:'50px'}}/>
-  </a>
- </Link>
+      <Subnav/>
      <h1 class = "header center">Räskog</h1>
              <p class = 'SubP center'>
              Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.

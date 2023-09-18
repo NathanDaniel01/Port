@@ -19,7 +19,7 @@ import Hello from "./pages/Hello"
 import Icons from "./pages/Icons"
 import Kunikos from "./pages/Kunikos"
 import Cluster from "./pages/Cluster"
-import ContactMe from "./pages/ContactMe"
+import ReachOut from "./pages/ReachOut"
 import Zine from "./pages/Zine"
 import Wedding from "./pages/Wedding"
 import TrailFunds from "./pages/TrailFunds"
@@ -39,8 +39,7 @@ export default function App() {
           <Route path="/GraphicDesign" element={<GraphicDesignPage/>}/>
           <Route path="/Letterpress" element={<LetterpressPage/>}/>
           <Route path="/ComputerScience" element={<ComputerSciencePage/>}/>
-          <Route path="/Experience" element={<ContactMePage/>}/>
-          <Route path="/ReachOut" element={<RaskogPage/>}/>
+          <Route path="/ReachOut" element={<ReachOutPage/>}/>
 
           <Route path="/Raskog" element={<RaskogPage/>}/>
           <Route path="/SixPack" element={<SixPackPage />}/>
@@ -89,9 +88,9 @@ const LetterpressPage = () => {
     Letterpress()
   )
 };
-const ContactMePage = () => {
+const ReachOutPage = () => {
   return(
-    ContactMe()
+    ReachOut()
   )
 };
 const RaskogPage = () => {

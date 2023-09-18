@@ -1,0 +1,102 @@
+import React, { useState, useEffect } from 'react';
+import "../subnav.css"
+import "../navResponcive.css"
+import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
+
+// FOR V2 https://codepen.io/piyushpd139/pen/gOYvZPG
+
+const Subnav = () => {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false); 
+  //const [isGD, setisGD] = useState(false); for later use
+
+  useEffect(() => {
+    const handleResize = () => {
+        if (window.innerWidth >= 750) {
+          setIsMobileNavOpen(false);
+        }
+      };
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+    const toggleMobileNav = () => {
+        setIsMobileNavOpen(!isMobileNavOpen);
+      };
+    
+      const toggleDropdown = () => {
+        setShowDropdown(!showDropdown);
+      };
+  return (
+    <nav className={"stickyb "}>
+     <div className="nav-header-b">
+        <button className="hamburger-b" onClick={toggleMobileNav}>
+          <div className={`bar-b ${isMobileNavOpen ? 'open' : ''}`}></div>
+          <div className={`bar-b ${isMobileNavOpen ? 'open' : ''}`}></div>
+          <div className={`bar-b ${isMobileNavOpen ? 'open' : ''}`}></div>
+        </button>
+        <ul className={`nav-links-b ${isMobileNavOpen ? 'open' : ''}`}>
+      <li>
+        <Link to={`/`}>
+        <a class="Home-b"  href="#Tobb">Nathan Daniel</a>
+        </Link>
+        </li>
+      <li className="dropdown-b">
+        <a class="dropdownItem-b"  href="#Topb" onClick={toggleDropdown}>Graphic Design </a>
+        <div className="dropdown-content-b">
+            <Link to={`/Raskog`}>
+                <a href="#Topb">Raskog</a>
+            </Link>
+            <Link to={`/Kunikos`}>
+                <a href="#Topb">Kunikos</a>
+            </Link>
+            <Link to={`/LostDog`}>
+                <a href="#Topb">LostDog</a>
+            </Link>
+            <Link to={`/SixPack`}>
+                <a href="#Topb">SixPack</a>
+            </Link>
+            <Link to={`/Folly`}>
+                <a href="#Topb">Folly</a>
+            </Link>
+            <Link to={`/Cluster`}>
+                <a href="#Topb">Cluster</a>
+            </Link>
+        </div>
+      </li>
+      <li className="dropdown-b">
+        <a class="dropdownItem-b" href="#Topb" onClick={toggleDropdown}>Letterpress </a>
+        <div className="dropdown-content-b">
+            <Link to={`/Personal`}>
+                <a href="#Topb">14ers</a>
+            </Link>
+            <Link to={`/Rant`}> 
+                <a href="#Topb">Rant</a>
+            </Link>
+            <Link to={`/Wedding`}>   
+                <a href="#Topb">Wedding</a>
+            </Link>
+            <Link to={`/Zine`}>
+                <a href="#Topb">Zine</a>
+            </Link>
+        </div>
+      </li>
+      <li>
+      <Link to={`/ReachOut`}>
+                <a href="#Topb">Reach Out</a>
+            </Link>
+      </li>
+        <li>
+            <Link to={`/Resume`}>
+                <a href="#Topb">Resume</a>
+            </Link>
+        </li>
+    </ul>
+     </div>
+  </nav>
+  );
+};
+
+export default Subnav;

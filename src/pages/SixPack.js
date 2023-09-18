@@ -3,15 +3,11 @@ import "../App.css"
 import "../sub.css"
 import {Link} from "react-router-dom";
 import Footer from '../components/Footer';
-
+import Subnav from "../components/subnav";
 function SixPack() {
   return (
    <div class = "mainBG">
-    <Link to={`/`}>
-    <a href="#top">
-            <img src="./SVG/Home_Button.svg" alt=""class="nav sticky" style={{width:'50px'}}/>
-    </a>
-    </Link>
+    <Subnav/>
         <h1 class = "header center">6 Pack</h1>
                 <p class = 'SubP center'>
                      The objective for this design was to revidalize 6 pack of beer from Samuel Smith Brewery, using a Victorian style packaging that maintains the brewery's roots. The existing design is poorly designed and in need of an update.

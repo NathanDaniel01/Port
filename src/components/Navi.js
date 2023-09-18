@@ -84,14 +84,14 @@ const Navi = () => {
       <li className="dropdown">
         <a class="dropdownItem" href="#LP" onClick={toggleDropdown}>Letterpress </a>
         <div className="dropdown-content">
-            <Link to={`/`}>
+            <Link to={`/Personal`}>
                 <a href="#">14ers</a>
             </Link>
-            <Link to={`/`}> 
+            <Link to={`/Rant`}> 
                 <a href="#">Rant</a>
             </Link>
-            <Link to={`/`}>   
-                <a href="#">ThankYou</a>
+            <Link to={`/Wedding`}>   
+                <a href="#">Wedding</a>
             </Link>
             <Link to={`/Zine`}>
                 <a href="#Top">Zine</a>
