@@ -17,6 +17,9 @@
     .paralaxBox{
         margin-top: 35%;
       }
+      .RedBG1{
+        height: 80vw;
+      }
 }
 @media (max-width: 900px) {
     .header1, .header2{
