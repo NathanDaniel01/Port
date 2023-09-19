@@ -198,11 +198,6 @@ Paralax
   border-radius: 15px;
   margin-top: 10px;
 }
-.images{
-  object-fit: cover;
-  object-position: 80% 100%;
-
-}
 .image {
   opacity: 1;
   display: block;

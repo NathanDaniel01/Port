@@ -22,7 +22,7 @@
       }
 }
 @media (max-width: 900px) {
-    .header1, .header2{
+  .header, .header1, .header2{
         font-size: 100px;
     }
     .header2{
@@ -40,12 +40,16 @@
       .RedBG2{
         height: 20vw;
       }
+      .containSub  {
+        margin: auto;
+       }
 }
 
 @media (max-width: 750px) {
-    .header1, .header2{
-        font-size: 85px;
+    .header, .header1, .header2{
+        font-size: 85px !important;
     }
+    
     .header2{
         margin-top: 165px;
     }
@@ -55,7 +59,7 @@
     .paralaxBox{
         margin-top: 50%;
       }
-      .image {
+      .image, .imageSub {
        margin: auto;
        height: 80% !important;
       }
@@ -63,18 +67,19 @@
         margin:auto;
         margin-top: 10px;
       }
-      .imgFlex {
+      .imgFlex, .imgFlexSub {
         width: 100%;
-          display:block;
+          display:block !important;
      }
-     .contain {
-      width: 75%;
+     .contain, .containSub  {
+      width: 75% !important;;
     }
+    
 }
 
 @media (max-width: 600px) {
-    .header1, .header2{
-        font-size: 55px;
+  .header, .header1, .header2{
+        font-size: 55px !important;
     }
     .header2{
         margin-top: 125px;
@@ -85,16 +90,20 @@
     h5{
         font-size: 45px !important;
       }
-    .imgFlex {
-         width: 100%;
+    .imgFlex, .imgFlexSub {
+         width: 100% !important;
            display:block;
       }
       .L,.R{
         margin:auto;
         margin-top: 10px;
       }
-      .contain {
+      .contain, .containSub  {
         width: 75%;
+      }
+      .SubP{
+        width: 75% !important; 
+        font-size: 16px !important;
       }
 
 }
@@ -123,6 +132,7 @@
       .tree3{
         margin-top: 0%;
       }
+    
 }
 @media (max-width: 400px) {
     .header1, .header2{

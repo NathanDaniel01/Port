@@ -9,23 +9,25 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 import Footer from './components/Footer';
 import Canvas from './components/Canvas';
 import Letters from './components/Letters';
+import ExperienceBox from './components/ExperienceBox';
 import Navi from './components/Navi';
 function Landing() {
     return (
-            <div class = "mainBG"> 
-                <h2 class = {'header1 sticky'}>Nathan</h2>
-                <h2 class = {'header2 sticky'}>Daniel</h2>
-                <ParallaxProvider>
-                    <ParallaxDemo/>
-                </ParallaxProvider>
-                <div class = 'externalspacertest'/> 
-                <Navi/>
-                <div id="stopHere" className="stop-div"/>
-                <GraphicDesignBox id="GD"/>
-                <LetterPressBox id="LP"/>
-                <Footer/>
+         <div class = "mainBG"> 
+            <h2 class = {'header1 sticky'}>Nathan</h2>
+            <h2 class = {'header2 sticky'}>Daniel</h2>
+            <ParallaxProvider>
+                <ParallaxDemo/>
+            </ParallaxProvider>
+            <div class = 'externalspacertest'/> 
+            <Navi/>
+            <div id="stopHere" className="stop-div"/>
+            <GraphicDesignBox id="GD"/>
+            <ExperienceBox/>
+            <LetterPressBox id="LP"/>
+            <Footer/>
         </div>
-        );
-    }
-    export default Landing;
+    );
+}
+export default Landing;
     
