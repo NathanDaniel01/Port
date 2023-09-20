@@ -11,29 +11,22 @@ function LostDog() {
       <Subnav/>
      <h1 class = "header center">Lost Dog</h1>
       <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-      The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+            Scope: find a poster or flyer that was porly designed and redevelop it and replace the original. 
+            We were required to have handmade type in the end poster.
+            i will fill this with more words later and make it seem like im talking moare about the project. talk more on design choice and why
       </p>
+      <div  class="containSub">
+            <img src="./Imgs/LostDog4.jpg" alt=""class="imagesSub" />                  
+        </div>
       <div class="imgFlexSub">
         <div  class="containSub">
-            <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="imageSub" />                  
+            <img src="./Imgs/LostDog2.jpg" alt=""class="imageSub" />                  
         </div>
         <div  class="containSub">
-            <img src="./Imgs/Kunikos.jpg" alt=""class="imageSub" />                     
+            <img src="./Imgs/LostDog3.jpg" alt=""class="imageSub" />                     
         </div>   
         <div  class="containSub">
-            <img src="./Imgs/Kunikos.jpg" alt=""class="imageSub" />                     
-        </div>   
-      </div>  
-      <div class="imgFlexSub">
-        <div  class="containSub">
-            <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="imageSub" />                  
-        </div>
-        <div  class="containSub">
-            <img src="./Imgs/Kunikos.jpg" alt=""class="imageSub" />                     
-        </div>   
-        <div  class="containSub">
-            <img src="./Imgs/Kunikos.jpg" alt=""class="imageSub" />                     
+            <img src="./Imgs/LostDog5.jpg" alt=""class="imageSub" />                     
         </div>   
       </div>  
      <Footer style={{margin: "100px auto auto auto"}}/>

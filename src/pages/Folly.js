@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css"
+import "../AppMobile.css"
 import "../sub.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
@@ -9,20 +10,46 @@ function Folly() {
     <div id="Top" class = "mainBG">
       <Subnav/>
      <h1 class = "header center">Folly</h1>
-             <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-      The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
-             </p>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras3.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras2.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras4.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras5.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
+        <p class = 'SubP center'>
+        In the project that I call Folly, I embarked on the creation of a unique Dislplay serif typeface inspired 
+        by the intricate patterns of trees, leaves, and foliage. My objective was to craft a versatile typeface 
+        that remained legible and visually engaging at both small and large sizes. The result is a meticulously 
+        designed typeface that seamlessly combines organic inspiration with practical readability for a wide range 
+        of design applications.I started with a existing typeface as the base of the design.
+        </p>
+        <div  class="containSub">
+          <img src="./Imgs/Folly/Folly1.jpg" alt=""class="imagesSub" /> 
+        </div>
+        <div  class="containSub">
+          <img src="./Imgs/Folly/Folly2.jpg" alt=""class="imagesSub" /> 
+        </div>
+        <div  class="containSub">
+          <img src="./Imgs/Folly/Folly3.jpg" alt=""class="imagesSub" /> 
+        </div>
+      <div class="imgFlexSub">
+        <div  class="containSub">
+            <img src="./Imgs/Folly/Folly4.jpg" alt=""class="imageSub" />                  
+        </div>
+        <div  class="containSub">
+            <img src="./Imgs/Folly/Folly5.jpg" alt=""class="imageSub" />                     
+        </div>    
+      </div>  
+      <div class="imgFlexSub">
+      <div  class="containSub">
+            <img src="./Imgs/Folly/Folly6.jpg" alt=""class="imageSub" />                     
+        </div>  
+        <div  class="containSub">
+            <img src="./Imgs/Folly/Folly7.jpg" alt=""class="imageSub" />                  
+        </div>
+      </div>  
+      <div class="imgFlexSub">
+        <div  class="containSub">
+            <img src="./Imgs/Folly/Folly8.jpg" alt=""class="imageSub" />                     
+        </div>   
+        <div  class="containSub">
+            <img src="./Imgs/Folly/Folly9.jpg" alt=""class="imageSub" />                     
+        </div>   
+      </div>  
      <Footer style={{margin: "100px auto auto auto"}}/>
  </div>
    );
