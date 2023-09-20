@@ -95,7 +95,7 @@ const Subnav = () => {
             </Link>
       </li>
         <li>
-                <a href="#Topb" onClick={openPdfInNewTab}>Resume</a>
+                <a href="#Topb" >Resume</a>
         </li>
     </ul>
      </div>

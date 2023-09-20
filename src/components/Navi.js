@@ -105,7 +105,7 @@ const Navi = () => {
         </div>
       </li>
       <li><a href="#">Reach Out</a></li>
-      <li><a href="#" onClick={openPdfInNewTab}>Resume</a></li>
+      <li><a href="#" >Resume</a></li>
     </ul>
      </div>
   </nav>
