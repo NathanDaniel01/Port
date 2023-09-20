@@ -11,8 +11,11 @@ function Rant() {
      <h1 class = "header center">Rant</h1>
 
              <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-      The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+             It's becoming frustrating how hiking trails are getting increasingly crowded.
+              The irony lies in the notion of embarking on adventures to explore the wild, 
+              only to find it less wild than expected. This has given me the saying
+               "Boldly Go Where Millions Have Gone Before," highlighting the paradox of 
+               seeking that wild adventure in well-trecked paths.
              </p>
      <div class="imgFlex">
          <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>
@@ -28,4 +31,4 @@ function Rant() {
  </div>
    );
  }
-export default Rant;
+export default Rant; 

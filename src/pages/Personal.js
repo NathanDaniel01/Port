@@ -12,8 +12,11 @@ function Personal() {
      <h1 class = "header center">Check List</h1>
 
              <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-      The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+             In my ambitious project, I meticulously designed a 14er checklist featuring
+              all 58 majestic peaks towering above 14,000 feet in Colorado. Setting the metal 
+              type was a laborious process, spanning five days, and involved two layers of vinyl 
+              and wood type. Each checklist item was meticulously hand-inked, resulting in a total 
+              of 90 distinct runs, capturing the essence of these breathtaking mountains.
              </p>
      <div class="imgFlex">
          <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>

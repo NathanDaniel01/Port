@@ -11,8 +11,9 @@ function Wedding() {
      <h1 class = "header center">Wedding</h1>
 
              <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-      The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+             I had a fun role during my sister's wedding preparations by crafting elegant thank you cards using a C&P letterpress,
+              capturing the timeless charm of classic letterpress style. These meticulously crafted cards added a personal touch to 
+              her expressions of gratitude, becoming a memorable keepsake for her guests.
              </p>
      <div class="imgFlex">
          <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>
