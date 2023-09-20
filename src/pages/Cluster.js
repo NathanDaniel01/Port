@@ -11,8 +11,7 @@ function Cluster() {
       <Subnav/>
      <h1 class = "header center">Cluster</h1>
       <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-              The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+      In this creative endeavor, I undertook the challenge of crafting distinct character clusters that artfully intertwined while maintaining individuality within three enchanting themes: Pidgins, Meerkats, and Gnomes. Employing the medium of watercolor, I brought to life these whimsical and harmonious ensembles, each exuding its unique charm while adhering to its respective theme. The project showcases my ability to seamlessly blend creativity, thematic consistency, and the expressive qualities of watercolor to deliver captivating character clusters.
       </p>
       <div  class="containSub">
         <img src="./Imgs/cluster/Cluster3.jpg" alt=""class="imagesSub" />                  
