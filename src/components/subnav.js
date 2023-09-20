@@ -6,6 +6,12 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 // FOR V2 https://codepen.io/piyushpd139/pen/gOYvZPG
 
 const Subnav = () => {
+  const pdfUrl = './Imgs/Resume.pdf';
+
+  const openPdfInNewTab = () => {
+    window.open(pdfUrl, '_blank');
+  };
+
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false); 
   //const [isGD, setisGD] = useState(false); for later use
@@ -89,9 +95,7 @@ const Subnav = () => {
             </Link>
       </li>
         <li>
-            <Link to={`/Resume`}>
-                <a href="#Topb">Resume</a>
-            </Link>
+                <a href="#Topb" onClick={openPdfInNewTab}>Resume</a>
         </li>
     </ul>
      </div>
