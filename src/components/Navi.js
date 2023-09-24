@@ -6,11 +6,12 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 // FOR V2 https://codepen.io/piyushpd139/pen/gOYvZPG
 
 const Navi = () => {
-  const pdfUrl = './Imgs/Resume.pdf';
+  const pdfUrl = './Imgs/NathanDaniel_Design_Resume.pdf';
 
   const openPdfInNewTab = () => {
     window.open(pdfUrl, '_blank');
   };
+
 
   const [isSticky, setIsSticky] = useState(false);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -105,7 +106,7 @@ const Navi = () => {
         </div>
       </li>
       <li><a href="#">Reach Out</a></li>
-      <li><a href="#" >Resume</a></li>
+      <li><a href="#" onClick={openPdfInNewTab}>Resume</a></li>
     </ul>
      </div>
   </nav>

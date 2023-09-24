@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 // FOR V2 https://codepen.io/piyushpd139/pen/gOYvZPG
 
 const Subnav = () => {
-  const pdfUrl = './Imgs/Resume.pdf';
+  const pdfUrl = './Imgs/NathanDaniel_Design_Resume.pdf';
 
   const openPdfInNewTab = () => {
     window.open(pdfUrl, '_blank');
@@ -95,7 +95,7 @@ const Subnav = () => {
             </Link>
       </li>
         <li>
-                <a href="#Topb" >Resume</a>
+                <a href="#Topb" onClick={openPdfInNewTab} >Resume</a>
         </li>
     </ul>
      </div>
