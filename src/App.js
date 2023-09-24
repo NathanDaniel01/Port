@@ -23,7 +23,7 @@ import ReachOut from "./pages/ReachOut"
 import Zine from "./pages/Zine"
 import Wedding from "./pages/Wedding"
 import TrailFunds from "./pages/TrailFunds"
-import Sayings from "./pages/Sayings"
+import FWS from "./pages/FWS"
 import Rant from "./pages/Rant"
 import Portfolios from "./pages/Portfolio"
 import Personal from "./pages/Personal"
@@ -56,7 +56,7 @@ export default function App() {
           <Route path="/LostDog" element={<LostDogPage/>}/>
           <Route path="/Rant" element={<RantPage/>}/>
           <Route path="/Wedding" element={<WeddingPage/>}/>
-          <Route path="/Sayings" element={<SayingsPage/>}/>
+          <Route path="/FWS" element={<FWSPage/>}/>
 
           <Route path="/TrailFunds" element={<TrailFundsPage/>}/>
           <Route path="/MyPortfolio" element={<PortfoliosPage/>}/>
@@ -153,9 +153,9 @@ const RantPage = () => {
     Rant()
   )
 };
-const SayingsPage = () => {
+const FWSPage = () => {
   return(
-    Sayings()
+    FWS()
   )
 };
 const LostDogPage = () => {

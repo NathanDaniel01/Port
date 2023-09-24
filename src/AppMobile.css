@@ -43,6 +43,18 @@
       .containSub  {
         margin: auto;
        }
+       h3{
+        font-size: 35px !important;
+        width: 60% !important;
+      }
+      button{
+        width: 25% !important;
+        margin: 2% !important;
+      }
+      .TF{
+        width: 100% !important;
+    
+      }
 }
 
 @media (max-width: 750px) {
@@ -74,6 +86,20 @@
      .contain, .containSub  {
       width: 75% !important;;
     }
+    h3{
+      font-size: 20px !important;
+      width: 60% !important;
+    }
+    button{
+      width: 30% !important;
+      margin: 2% !important;
+    }
+    .TF{
+      margin: 10px;
+      padding: 10px;
+      width: 100% !important;
+  
+    }
     
 }
 
@@ -104,6 +130,15 @@
       .SubP{
         width: 75% !important; 
         font-size: 16px !important;
+      }
+      h3{
+        font-size: 20px !important;
+        width: 60% !important;
+      }
+      button{
+        margin: 20px auto auto auto !important;
+        width: 190px !important;
+        display: block !important;
       }
 
 }

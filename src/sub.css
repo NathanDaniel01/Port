@@ -43,12 +43,6 @@ src: url(https://use.typekit.net/gze6yme.css);
    font-size: 20px;
    margin-bottom: 60px;
   }
-  Button{
-    margin-left: 50%;
-    height: auto;
-    width: auto;
-    margin-bottom: 100px;
-  }
 
   .imgFlexSub {
     width: 100%;
@@ -93,4 +87,48 @@ src: url(https://use.typekit.net/gze6yme.css);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .GocodeLogo{
+    margin: 2%;
+    margin-top: -60px;
+    padding: 10px;
+    width: 20%;
+    display:inline-block;
+  }
+  .GocodeType{
+    font-style: normal;
+    font-family: loos-wide;
+    font-size: 40px;
+    color: var(--black);
+    display:inline-block;
+    width: 50%;
+    
+    padding: 10px;
+  }
+  button{
+    width: 20%;
+    margin: 5%;
+    display: inline-block;
+    height: 3em;
+    color: var(--Background-color);
+    background-color: var(--Redish);
+    border-radius: 25px;
+    border: none;
+    font-style: normal;
+    font-family: loos-wide;
+  }
+  .TF{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+
+  }
+  hr{
+    border: 1px var(--Redish);
+    width: 90%;
+    height: 2px;
+    background-color: var(--Redish);
+    opacity: 50%;
+    margin: auto;
   }

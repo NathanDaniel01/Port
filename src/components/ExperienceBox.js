@@ -14,7 +14,7 @@ function ExperienceBox(){
                 </div>
             </div>
             <div  class="contain Bottom R">
-                <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
+                <img src="./Imgs/FWS.jpg" alt=""class="image" />
                 <div class="middle">
                     <Link class="titlesWhitetoRed" to={`/FWS`}>FWS</Link>
                 </div>
