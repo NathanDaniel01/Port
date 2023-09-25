@@ -13,27 +13,29 @@ function LetterPressBox(){
                     <Link class="titlesWhitetoRed" to={`/Personal`}>14ers</Link>
                 </div>
             </div>
-            <div  class="contain R">
+            <div  class="contain Bottom R">
+                <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" />
+                <div class="middle">
+                    <Link class="titlesWhitetoRed" to={`/Wedding`}>Wedding</Link>
+                </div>
+            </div>   
+        </div>  
+        {/*
+        <div class="imgFlex">
+            <div  class="contain L">
                 <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
                 <div class="middle">
                     <Link class="titlesWhitetoRed" to={`/Rant`}>Rant</Link>
                 </div>
             </div>   
-        </div>  
-        <div class="imgFlex">
-            <div  class="contain Bottom L">
-                <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" />
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Wedding`}>Wedding</Link>
-                </div>
-            </div>
             <div  class="contain Bottom R">
                 <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
                 <div class="middle">
                     <Link class="titlesWhitetoRed" to={`/Zine`}>Zine</Link>
                 </div>
             </div>   
-        </div>     
+        </div>   
+    */ }  
     </div>
    );
 }
