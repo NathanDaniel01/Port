@@ -89,23 +89,27 @@ const Navi = () => {
         </div>
       </li>
       <li className="dropdown">
+        <a class="dropdownItem" href="#LP" onClick={toggleDropdown}> Experience </a>
+        <div className="dropdown-content">
+            <Link to={`/Trailfunds`}>
+                <a href="#">Trail Funds</a>
+            </Link>
+            <Link to={`/FWS`}>   
+                <a href="#">FWS</a>
+            </Link>
+        </div>
+      </li>
+      <li className="dropdown">
         <a class="dropdownItem" href="#LP" onClick={toggleDropdown}>Letterpress </a>
         <div className="dropdown-content">
             <Link to={`/Personal`}>
                 <a href="#">14ers</a>
             </Link>
-            <Link to={`/Rant`}> 
-                <a href="#">Rant</a>
-            </Link>
             <Link to={`/Wedding`}>   
                 <a href="#">Wedding</a>
             </Link>
-            <Link to={`/Zine`}>
-                <a href="#Top">Zine</a>
-            </Link>
         </div>
       </li>
-      <li><a href="#">Reach Out</a></li>
       <li><a href="#" onClick={openPdfInNewTab}>Resume</a></li>
     </ul>
      </div>

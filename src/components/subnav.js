@@ -73,6 +73,17 @@ const Subnav = () => {
         </div>
       </li>
       <li className="dropdown-b">
+        <a class="dropdownItem-b" href="#Topb" onClick={toggleDropdown}> Experience </a>
+        <div className="dropdown-content-b">
+            <Link to={`/Trailfunds`}>
+                <a href="#Topb">Trail Funds</a>
+            </Link>
+            <Link to={`/FWS`}>   
+                <a href="#Topb">FWS</a>
+            </Link>
+        </div>
+      </li>
+      <li className="dropdown-b">
         <a class="dropdownItem-b" href="#Topb" onClick={toggleDropdown}>Letterpress </a>
         <div className="dropdown-content-b">
             <Link to={`/Personal`}>
@@ -88,11 +99,6 @@ const Subnav = () => {
                 <a href="#Topb">Zine</a>
             </Link>
         </div>
-      </li>
-      <li>
-      <Link to={`/ReachOut`}>
-                <a href="#Topb">Reach Out</a>
-            </Link>
       </li>
         <li>
                 <a href="#Topb" onClick={openPdfInNewTab} >Resume</a>
