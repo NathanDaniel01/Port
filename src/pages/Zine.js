@@ -17,47 +17,47 @@ function Zine() {
           lock-ups my professor had ever encountered. Custom cutting my lettering further intensified the project,
            resulting in a meticulously crafted and uniquely challenging endeavor.
       </p>
-      <img src="./Imgs/LP/Zine_7.jpg" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine/Zine_7.jpg" alt=""class="img"/>
       
       <div class="col">
         <div class="row">
-          <img src="./Imgs/LP/Zine_1.jpg" alt=""class="img"/>
+          <img src="./Imgs/LP/Zine/Zine_1.jpg" alt=""class="img"/>
         </div>
         <div class="row">
-          <img src="./Imgs/LP/Zine_9.jpg" alt=""class="img"/>
+          <img src="./Imgs/LP/Zine/Zine_9.jpg" alt=""class="img"/>
         </div>
         <div class="row">
-          <img src="./Imgs/LP/Zine_3.jpg" alt=""class="img"/>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-            <img src="./Imgs/LP/Zine_4.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/Zine_5.jpg" alt=""class="img"/>
+          <img src="./Imgs/LP/Zine/Zine_3.jpg" alt=""class="img"/>
         </div>
       </div>
       <div class="col">
         <div class="row">
-            <img src="./Imgs/LP/Zine_4.jpg" alt=""class="img"/>
+            <img src="./Imgs/LP/Zine/Zine_4.jpg" alt=""class="img"/>
         </div>
         <div class="row">
-        <img src="./Imgs/LP/Zine_5.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/Zine_6.jpg" alt=""class="img"/>
+        <img src="./Imgs/LP/Zine/Zine_5.jpg" alt=""class="img"/>
         </div>
       </div>
       <div class="col">
         <div class="row">
-            <img src="./Imgs/LP/Zine_7.jpg" alt=""class="img"/>
+            <img src="./Imgs/LP/Zine/Zine_4.jpg" alt=""class="img"/>
         </div>
         <div class="row">
-        <img src="./Imgs/LP/Zine_8.jpg" alt=""class="img"/>
+        <img src="./Imgs/LP/Zine/Zine_5.jpg" alt=""class="img"/>
         </div>
         <div class="row">
-        <img src="./Imgs/LP/Zine_2.jpg" alt=""class="img"/>
+        <img src="./Imgs/LP/Zine/Zine_6.jpg" alt=""class="img"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+            <img src="./Imgs/LP/Zine/Zine_7.jpg" alt=""class="img"/>
+        </div>
+        <div class="row">
+        <img src="./Imgs/LP/Zine/Zine_8.jpg" alt=""class="img"/>
+        </div>
+        <div class="row">
+        <img src="./Imgs/LP/Zine/Zine_2.jpg" alt=""class="img"/>
         </div>
       </div>
       <h1 class = "SubP center">I know the prints missing, getting it next week from storage!</h1>
