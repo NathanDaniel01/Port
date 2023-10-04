@@ -110,7 +110,7 @@ const Navi = () => {
             </Link>
         </div>
       </li>
-      <li><a href="#" onClick={openPdfInNewTab}>Resume</a></li>
+      <li><a href="./NathanDaniel_Design_Resume.pdf" onClick={openPdfInNewTab} rel='noopener noreferrer'>Resume</a></li>
     </ul>
      </div>
   </nav>
