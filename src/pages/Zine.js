@@ -10,8 +10,8 @@ function Zine() {
       <Subnav/>
       <h1 class = "header center">Zine</h1>
       <p class = 'SubP center'>
-          In my project detailing the various mishaps that befell my phone, 
-          I embarked on a complex endeavor that involved a nearly five hour lock-up process 
+          In my project detailing the various ways that I broke my phone, 
+          it was byfar a complex layout that involved a nearly five hour lock-up process 
           using a Vandercook press. The zine-style presentation added an extra layer of challenge, 
           with each fold line and page requiring distinct orientation, making it one of the most intricate 
           lock-ups my professor had ever encountered. Custom cutting my lettering further intensified the project,
@@ -61,37 +61,6 @@ function Zine() {
         </div>
       </div>
       <h1 class = "SubP center">I know the prints missing, getting it next week from storage!</h1>
-      <h1 class = "header center">Other Work</h1>
-      <div class="col">
-        <div class="row">
-        <img src="./Imgs/LP/Test_1.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/Test_2.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/Sayings_2.jpg" alt=""class="img"/>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-        <img src="./Imgs/LP/Sayings_1.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/Sayings_3.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/Rant_1.jpg" alt=""class="img"/>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
-        <img src="./Imgs/LP/14ers_1.jpg" alt=""class="img"/>
-        </div>
-        <div class="row">
-        <img src="./Imgs/LP/14ers_2.jpg" alt=""class="img"/>
-        </div>   
-      </div>
     
      <Footer style={{margin: "100px auto auto auto"}}/>
  </div>
