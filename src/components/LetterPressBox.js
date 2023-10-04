@@ -8,7 +8,7 @@ function LetterPressBox(){
         <h5>Letterpress:</h5>
         <div class="imgFlex">
             <div  class="contain Bottom L">
-                <img src="./Imgs/LP/Zine_5.jpg" alt=""class="image" />
+                <img src="./Imgs/LP/Zine/Zine_5.jpg" alt=""class="image" />
                 <div class="middle">
                     <Link class="titlesWhitetoRed" to={`/Zine`}>Zine</Link>
                 </div>
