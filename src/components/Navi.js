@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 // FOR V2 https://codepen.io/piyushpd139/pen/gOYvZPG
 
 const Navi = () => {
-  const pdfUrl = './Imgs/NathanDaniel_Design_Resume.pdf';
+  const pdfUrl = './NathanDaniel_Design_Resume.pdf';
 
   const openPdfInNewTab = () => {
     window.open(pdfUrl, '_blank');
