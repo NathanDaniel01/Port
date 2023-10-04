@@ -19,10 +19,10 @@ function Footer(){
                 </div>
                 <div class = {'icons'}/>
                 <a href = "https://www.instagram.com/nathan___daniel/ " target="_blank">
-                    <img src="./Svg/instagram.svg"/>
+                    <img src="./SVG/instagram.svg"/>
                 </a>
                 <a href = "https://www.linkedin.com/in/nathan-daniel-236b3b225/" target="_blank">
-                    <img src="./Svg/linkedin.svg"/>
+                    <img src="./SVG/linkedin.svg"/>
                 </a>
                 <div class = {'icons'}/>
                 </Col>
