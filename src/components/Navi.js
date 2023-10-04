@@ -102,8 +102,8 @@ const Navi = () => {
       <li className="dropdown">
         <a class="dropdownItem" href="#LP" onClick={toggleDropdown}>Letterpress </a>
         <div className="dropdown-content">
-            <Link to={`/Personal`}>
-                <a href="#">14ers</a>
+            <Link to={`/Zine`}>
+                <a href="#">Zine</a>
             </Link>
             <Link to={`/Wedding`}>   
                 <a href="#">Wedding</a>

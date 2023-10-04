@@ -18,16 +18,44 @@ function Personal() {
               and wood type. Each checklist item was meticulously hand-inked, resulting in a total 
               of 90 distinct runs, capturing the essence of these breathtaking mountains.
              </p>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras3.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras2.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras4.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras5.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
+      <div class="col">
+        <div class="row">
+          <img src="./Imgs/LP/14ers_1.jpg" alt=""class="img" />
+        </div>
+        <div class="row">
+          <img src="./Imgs/LP/14ers_2.jpg" alt=""class="img" />
+        </div>
+        <div class="row">
+          <img src="./Imgs/LP/14ers_3.jpg" alt=""class="img" />
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <img src="./Imgs/LP/14ers_4.jpg" alt=""class="img" />
+        </div>
+        <div class="row">
+          <img src="./Imgs/LP/14ers_5.jpg" alt=""class="img"/>
+        </div>
+        <div class="row">
+          <img src="./Imgs/LP/14ers_6.jpg" alt=""class="img"/>
+        </div>
+      </div>
+      <h1 class= "header center">Other Work</h1>
+      <img src="./Imgs/LP/Rant_1.jpg" alt=""class="img"/>
+      <img src="./Imgs/LP/Sayings_1.jpg" alt=""class="img"/>
+      <img src="./Imgs/LP/Sayings_2.jpg" alt=""class="img"/>
+      <img src="./Imgs/LP/Sayings_3.jpg" alt=""class="img"/>
+      <img src="./Imgs/LP/Test_1.jpg" alt=""class="img"/>
+      <img src="./Imgs/LP/Test_2.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_1.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_2.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_3.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_4.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_5.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_6.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_7.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_8.JPG" alt=""class="img"/>
+      <img src="./Imgs/LP/Zine_9.JPG" alt=""class="img"/>
      <Footer style={{margin: "100px auto auto auto"}}/>
  </div>
    );

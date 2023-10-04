@@ -15,18 +15,34 @@ function Wedding() {
               capturing the timeless charm of classic letterpress style. These meticulously crafted cards added a personal touch to 
               her expressions of gratitude, becoming a memorable keepsake for her guests.
              </p>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras3.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras2.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras4.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras5.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
+    
+      <div class="col">
+        <div class="row">
+        <img src="./Imgs/Wedding/Wed_1.jpg" alt=""class="img" />
+        </div>
+        <div class="row">
+        <img src="./Imgs/Wedding/Wed_2.jpg" alt=""class="img"/>
+        </div>
+        <div class="row">
+        <img src="./Imgs/Wedding/Wed_3.jpg" alt=""class="img"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+        <img src="./Imgs/Wedding/Wed_4.jpg" alt=""class="img" />
+        </div>
+        <div class="row">
+        <img src="./Imgs/Wedding/Wed_5.jpg" alt=""class="img"/>
+        </div>
+        <div class="row">
+        <img src="./Imgs/Wedding/Wed_6.jpg" alt=""class="img"/>
+        </div>
+      </div>
      <Footer style={{margin: "100px auto auto auto"}}/>
  </div>
    );
  }
 export default Wedding;
+
+
+

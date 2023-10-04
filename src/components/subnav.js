@@ -86,17 +86,11 @@ const Subnav = () => {
       <li className="dropdown-b">
         <a class="dropdownItem-b" href="#Topb" onClick={toggleDropdown}>Letterpress </a>
         <div className="dropdown-content-b">
-            <Link to={`/Personal`}>
-                <a href="#Topb">14ers</a>
-            </Link>
-            <Link to={`/Rant`}> 
-                <a href="#Topb">Rant</a>
+            <Link to={`/Zine`}>
+                <a href="#Topb">Zine</a>
             </Link>
             <Link to={`/Wedding`}>   
                 <a href="#Topb">Wedding</a>
-            </Link>
-            <Link to={`/Zine`}>
-                <a href="#Topb">Zine</a>
             </Link>
         </div>
       </li>
