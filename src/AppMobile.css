@@ -1,12 +1,4 @@
 /*900 750 500 400*/
-:root {
-    --Background-color: #FEF6F4;
-    --Black: #000000;
-    --red: #F62E2E;
-    --White: #FFFFFF;
-    --Redish: #CD2E2C;
-    
-  }
 @media (min-width: 900px) {
     .header1, .header2{
         font-size: 150px;
