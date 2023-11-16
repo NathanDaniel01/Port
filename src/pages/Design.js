@@ -25,15 +25,15 @@ function GraphicDesign() {
                     </div>
                 </div>
                 <div  class="contain">
-                    <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" style={{width:'100%'}}/>
+                    <img src="./Imgs/SixPack/Detail_8.jpg" alt=""class="image" style={{width:'100%'}}/>
                     <div class="middle">
                         <Link class="titlesWhitetoRed" to={`/SixPack`}>6-pack</Link>
                     </div>
                 </div>
                 <div  class="contain">
-                    <img src="./Imgs/Childrens/Childrens_1.jpg" alt=""class="image" style={{width:'100%'}}/>
+                    <img src="./Imgs/Kunikos/Kunikos1.jpg" alt=""class="image" style={{width:'100%'}}/>
                     <div class="middle">
-                        <Link class="titlesWhitetoRed" to={`/Childrens`}>Childrens</Link>
+                        <Link class="titlesWhitetoRed" to={`/Kunikos`}>Kunikos</Link>
                     </div>
                 </div>
             </div>

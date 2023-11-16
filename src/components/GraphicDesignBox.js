@@ -35,7 +35,7 @@ function GraphicDesignBox(){
             </div>
             <div  class="contain R">
                 <Link to={`/SixPack`}>
-                    <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
+                    <img src="./Imgs/SixPack/Detail_8.jpg" alt=""class="image" />
                     <div class="middle">
                     <a class="titlesWhitetoRed" >6-pack</a>
                     </div>

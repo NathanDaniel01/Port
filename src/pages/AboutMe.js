@@ -13,22 +13,15 @@ function AboutMe() {
           </Link>
         </a>
         <NavBar_Alt/>
+
      <h1 class = "header center">Nathan</h1>
-       <img src="./Imgs/Raskog/ras.jpg" alt=""class="PersonalImg" />
              <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-      The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+            I need to get better at talking about myself. But anywho, hello, my name is nathan daniel and I like art
+            i was a raft guide on the Arkansas river and enjoy anything outside. I graduated in computer science and 
+            also got a minor in graphic design. I am currently looking for my first job in the UX/UI feild because I 
+            will be able to utilize my design skills along with my knowladge of codeing.
              </p>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras3.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras2.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
-     <div class="imgFlex">
-         <img src="./Imgs/Raskog/ras4.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/ras5.jpg" alt=""class="image" style={{width:'33%'}}/>
-         <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" style={{width:'33%'}}/>
-     </div>
+     
      <Footer style={{margin: "100px auto auto auto"}}/>
  </div>
    );
