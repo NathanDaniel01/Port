@@ -1,6 +1,7 @@
 import { Parallax } from 'react-scroll-parallax';
 import React from "react";
 import "../App.css"
+import "../Styles/Parallax.css"
 
 const ParallaxDemo = () => (
     <div class = "paralaxBox">
@@ -19,13 +20,13 @@ const ParallaxDemo = () => (
             <img src="./SVG/trees_2.svg" alt="" />
 
         </Parallax>
-        <Parallax speed={40}
+        <Parallax speed={65}
         class = "tree3"
         >
             <div>
             <img src="./SVG/trees_3.svg" alt="" />
             </div>
-            <div class = "RedBG1"/>
+            <div class = "BG1"/>
             
         </Parallax>
         

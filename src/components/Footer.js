@@ -1,34 +1,48 @@
 import React from 'react';
-import "../App.css"
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-
+import "../Styles/Footer.css"
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 function Footer(){
     return(
-        <div class = {'Footer'}>
-            <Row>
-                <Col>
-                    <div class = {'FooterText'}>
-                        Copyright Nathan Daniel 2023.
+        <>
+            <div className = 'Footer'>
+               <div className = 'Col_6 TextCluster DEBUG'>
+                    <h3 className = 'DEBUG'>Nathan Daniel</h3>
+                    <div className = 'Col_5 IconCluster DEBUG'>
+                        <a href = "https://www.linkedin.com/in/nathan-daniel-236b3b225/" target="_blank">
+                            <img className= "Icon"src="./SVG/linkedin.svg"/>
+                            <p className = "Handel">@nathan___daniel</p>
+                        </a>
                     </div>
-                </Col>
-                <Col>
-                
-                <div  class = {'FooterText'} to={`/ReachOut`}>
-                    Follow Me!
+                    <div className = 'Col_5  IconCluster DEBUG'>
+                        <a  href = "https://www.instagram.com/nathan___daniel/ " target="_blank">
+                            <img className= "Icon" src="./SVG/instagram.svg"/>
+                            <p className = "Handel">@nathan___daniel</p>
+                        </a>
+                    </div>
+               </div>
+               <div className = 'Col_4 ArtCluster DEBUG'> 
+                        <img className = "DEBUG" src="./SVG/Camper.svg"/>
                 </div>
-                <div class = {'icons'}/>
-                <a href = "https://www.instagram.com/nathan___daniel/ " target="_blank">
-                    <img src="./SVG/instagram.svg"/>
-                </a>
-                <a href = "https://www.linkedin.com/in/nathan-daniel-236b3b225/" target="_blank">
-                    <img src="./SVG/linkedin.svg"/>
-                </a>
-                <div class = {'icons'}/>
-                </Col>
-            </Row>
             </div>
+        </>
     );
 }
 export default Footer;
 
+/*
+    <div className= "IconCluster">
+                                    <a  href = "https://www.instagram.com/nathan___daniel/ " target="_blank">
+                                        <img className= "Icon" src="./SVG/instagram.svg"/>
+                                        <p className = "Handel">@nathan___daniel</p>
+                                    </a>
+                                </div>
+                            </Col>
+                            <Col xs={6} sm={6} md={7}>
+                                <div className= "IconCluster">
+                                    <a href = "https://www.linkedin.com/in/nathan-daniel-236b3b225/" target="_blank">
+                                        <img className= "Icon"src="./SVG/linkedin.svg"/>
+                                        <p className = "Handel">@nathan___daniel</p>
+                                    </a>
+                                </div>
+*/

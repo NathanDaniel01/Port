@@ -4,7 +4,7 @@ import "../AppMobile.css"
 import "../sub.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
-import Subnav from "../components/subnav";
+import NavBar_Alt from "../components/NavBar_Alt";
 
 function TrailFunds() {
   const pdfUrl = './Imgs/Trailfunds_presentation.pdf';
@@ -23,7 +23,12 @@ function TrailFunds() {
 
   return (
      <div id="Top" class = "mainBG">
-      <Subnav/>
+      <a href="#">
+          <Link to={`/`}>
+            <img className="HomeBtn" src="./SVG/camper.svg" />
+          </Link>
+        </a>
+      <NavBar_Alt/>
      <h1 class = "header center">Trail Funds</h1>
      <div  class="containSub center">
      <img src="./SVG/GocodeLogo.svg" alt=""class="GocodeLogo" />    

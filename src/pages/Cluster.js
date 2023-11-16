@@ -4,14 +4,24 @@ import "../sub.css"
 import "../AppMobile.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
-import Subnav from "../components/subnav";
+import NavBar_Alt from "../components/NavBar_Alt";
 function Cluster() {
   return (
     <div id="Top" class = "mainBG">
-      <Subnav/>
+      <a href="#">
+          <Link to={`/`}>
+            <img className="HomeBtn" src="./SVG/camper.svg" />
+          </Link>
+        </a>
+        <NavBar_Alt/>
      <h1 class = "header center">Cluster</h1>
       <p class = 'SubP center'>
-      In this creative endeavor, I undertook the challenge of crafting distinct character clusters that artfully intertwined while maintaining individuality within three enchanting themes: Pidgins, Meerkats, and Gnomes. Employing the medium of watercolor, I brought to life these whimsical and harmonious ensembles, each exuding its unique charm while adhering to its respective theme. The project showcases my ability to seamlessly blend creativity, thematic consistency, and the expressive qualities of watercolor to deliver captivating character clusters.
+      In this creative endeavor, I undertook the challenge of crafting distinct character clusters 
+      that artfully intertwined while maintaining individuality within the themes: Pidgins,  and Gnomes. Employing 
+      the medium of watercolor, I brought to life these whimsical and harmonious 
+      ensembles, each exuding its unique charm while adhering to its respective theme. The project showcases my 
+      ability to seamlessly blend creativity, thematic consistency, and the expressive qualities of watercolor 
+      to deliver captivating character clusters.
       </p>
       <div  class="containSub">
         <img src="./Imgs/cluster/Cluster3.jpg" alt=""class="imagesSub" />                  

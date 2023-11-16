@@ -1,0 +1,133 @@
+:root {
+    --Leaf1: #D6453B;
+    --Leaf2: #EF6B63;
+  }
+
+/* Define Main Leaf */
+.leaf {
+    width: 8px;
+    height: 20px;
+    background-color: var(--Light);
+    border-radius: 50%;
+    top: 50vh;
+    position: absolute;
+    animation: swayInWind  8s ease-in-out infinite;
+    
+    z-index: 16;
+  }
+/* Define Keyframes */
+  @keyframes swayInWind {
+    0% {    transform:translateX(110vw) translateY(60vh) scale(1);
+            rotate: -20deg;
+    }
+    25%{transform:translateX(50vw)translateY(-40vh) scale(1.2);}
+      
+    35%{transform:translateX(55vw) translateY(-30vh) scale(1);}
+      
+    50%{transform:translateX(30vw)translateY(-20vh) scale(1.1); }
+    60%{transform:translateX(35vw)translateY(-15vh) scale(.9);}    
+    75%{transform:translateX(20vw)translateY(-18vh) scale(1);}
+        
+    100% {
+      transform:translateX(-10vw) translateY(0vh) scale(1.1);
+      rotate: 70deg;}
+    }
+    
+    @keyframes swayInWind2 {
+      0% {    transform:translateX(110vw) translateY(60vh) scale(1);
+              rotate: -20deg;
+      }
+      25%{transform:translateX(50vw)translateY(-18vh) scale(1.2);}
+        
+      35%{transform: translateY(-15vh) scale(1);}
+        
+      50%{transform:translateY(-20vh) scale(1.1); }
+      60%{transform:translateY(-30vh) scale(.9);}    
+      75%{transform:translateY(-40vh) scale(1);}
+          
+      100% {
+        transform:translateX(-10vw) translateY(0vh) scale(1.1);
+        rotate: 70deg;}
+      }
+  
+/* Define Leaf Children */
+  .leaf:nth-child(2) {
+    width: 8px;
+    height: 4px;
+    background-color: var(--Light);
+    top: 56vh;
+    animation-duration: 10s;
+    animation: swayInWind2 10s ease-in-out infinite;
+  }
+  
+  .leaf:nth-child(3) {
+    width: 7px;
+    height: 15px;
+    background-color: var(--Secondary);
+    top: 58vh;
+    animation-duration: 17s;
+    
+  }
+  .leaf:nth-child(4) {
+    width: 6px;
+    height: 12px;
+    background-color: var(--Light);
+    top: 68vh;
+    animation-duration: 13s;
+  }
+  .leaf:nth-child(5) {
+    width: 12px;
+    height: 6px;
+    background-color: var(--Light);
+    top: 65vh;
+    animation-duration: 16s;
+  }
+  .leaf:nth-child(6) {
+    width: 5px;
+    height: 10px;
+    background-color: var(--Light);
+    top: 60vh;
+    animation-duration: 9s;
+    animation: swayInWind2 9s ease-in-out infinite;
+  }
+  
+  .leaf:nth-child(7) {
+    width: 8px;
+    height: 6px;
+    background-color: var(--Light);
+    top: 75vh;
+    animation-duration: 7s;
+  }
+  
+  .leaf:nth-child(8) {
+    width: 10px;
+    height: 5px;
+    background-color: var(--Secondary);
+    top: 80vh;
+    animation-duration: 15s;
+  }
+  .leaf:nth-child(9) {
+    width: 12px;
+    height: 10px;
+    background-color: var(--Light);
+    top: 86vh;
+    animation-duration: 11s;
+    animation: swayInWind2 11s ease-in-out infinite;
+  }
+  .leaf:nth-child(10) {
+    width: 10px;
+    height: 15px;
+    background-color: var(--Light);
+    top: 76vh;
+    animation-duration: 14s;
+    animation: swayInWind2  14s ease-in-out infinite;
+  }
+  .leaf:nth-child(11) {
+    width: 5px;
+    height: 15px;
+    background-color: var(--Light);
+    top: 79vh;
+    animation-duration: 6s;
+  }
+  /* Add more leaf styles as needed */
+  

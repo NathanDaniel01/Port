@@ -25,6 +25,7 @@ body {
 @font-face {
 font-family: eloquent-jf-pro;
 font-weight: 400;
+font-weight: 200;
 font-style: italic;
 src: url(https://use.typekit.net/gze6yme.css);
 }
@@ -40,27 +41,15 @@ src: url(https://use.typekit.net/gze6yme.css);
   width: 100% !important;
   margin-right: -12px!;
 }
-.RedBG1, .RedBG2{
-  background-color: var(--Primary);
-  height: 15vw;
-  width: 100%;
-  z-index: 8 !important;
-  position: relative;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
-.nav{
-  float: left !important;
-  display: block;
-  width:'50px';
-  padding-top: 10px;
-  padding-left: 10px !important;
-  z-index: 10;
-}
-.sticky {
-  position: fixed;
-  top: 0;
+.HomeBtn{
+position: fixed;
+top: 0;
+z-index: 16;
+margin: 5px;
+margin-top: 4px;
+margin-bottom: 4px;
+padding: 10px;
+height: 52px;
 }
 @keyframes slideInFromLeft {
   0% {
@@ -161,20 +150,6 @@ p{
   padding-bottom: 50px;
   margin-bottom: -5% ;
 }
-.FooterText{
-  font-family: loos-wide, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 24px;
-  color: var(--Dark);
-  margin-bottom: 50px;
-  margin: 15px;
-}
-.Footer{
-  background-color: var(--Background-color);
-  width: 100vw;
-  height: 150px;
-}
 /*
 -=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-
 Paralax
@@ -182,31 +157,6 @@ Paralax
 */
 
 
-.paralaxBox{
-  position: relative;
-  top: 0;
-  margin-top: 15%;
-}
-.mountains1{
-  margin-top: -5%;
-  width: 100vw;
-  z-index: 0;
-  position: absolute;
-}
-.tree2{
-  margin-top: -15%;
-  margin-left: auto;
-  right: 0;
-  width: 40%;
-  position: absolute;
-  z-index: 10 !important;
-}
-.tree3{
-  margin-top: 5%;
-  width: 100vw;
-  z-index: 10 !important;
-  position: absolute;
-}
 .externalspacertest{
   margin-top: 15%;
   margin-bottom: 0%;
@@ -215,14 +165,14 @@ Paralax
   color:var(--Primary);
 }
 .GD{
-  margin-top: 15%;
+ padding-top: 10%;
 }
  .Box{
   top: 10;
   margin-bottom: 0%;
   width: 100%;
   /*border-radius: 15px;*/
-  background-color: var(--Primary);
+  background-color: var(--Background-color);
   z-index: 11 !important;
   position: relative;
  }

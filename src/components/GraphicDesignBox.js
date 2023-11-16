@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 function GraphicDesignBox(){
     return(
     <div id="GD"class = "Box GD"> 
-        <h5>Graphic Design:</h5>
         <div class="imgFlex">
             <div  class="contain L">
                 <Link to={`/Raskog`}>
@@ -44,7 +43,7 @@ function GraphicDesignBox(){
             </div>   
         </div>  
         <div class="imgFlex">
-            <div  class="contain Bottom L" >
+            <div  class="contain L" >
                 <Link to={`/Folly`}>
                     <img src="./Imgs/Folly.jpg" alt=""class="image" />
                     <div class="middle">
@@ -52,7 +51,7 @@ function GraphicDesignBox(){
                     </div>
                 </Link>
             </div>
-            <div  class="contain Bottom R" >
+            <div  class="contain R" >
                 <Link to={`/Cluster`}>
                     <img src="./Imgs/Cluster.jpg" alt=""class="image" />
                     <div class="middle">

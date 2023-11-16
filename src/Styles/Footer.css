@@ -1,0 +1,111 @@
+
+/*░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+/*░███████╗░█████╗░░█████╗░████████╗███████╗██████╗░░
+/*░██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗░
+/*░█████╗░░██║░░██║██║░░██║░░░██║░░░█████╗░░██████╔╝░
+/*░██╔══╝░░██║░░██║██║░░██║░░░██║░░░██╔══╝░░██╔══██╗░
+/*░██║░░░░░╚█████╔╝╚█████╔╝░░░██║░░░███████╗██║░░██║░
+/*░╚═╝░░░░░░╚════╝░░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝░
+/*░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+/*
+/*          -------- FOOTER CSS --------
+/*
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+/*
+/*          -------- Colors --------            */
+:root {
+    --Background-color: #FEF6F4;
+    --Dark: #0A3542;
+    --Secondary: #D6453B;
+    --Light: #EF6B63;
+    --Primary: #335C64;
+}
+
+
+/*          -------- INIT --------          */
+.Footer{
+    background-color: var(--Primary);
+    width: 100vw;
+    height: Auto;
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+  }
+h3{
+    font-style: italic;
+    font-family: eloquent-jf-pro;
+    color: var(--Background-color);
+    font-size: 64px;
+    padding: 10px;
+}
+.FooterText{
+    font-family: loos-wide, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    color: var(--Dark);
+    margin-bottom: 50px;
+    margin: 15px;
+  }
+.Icon{
+    width: 40px;
+    margin: 0px;
+    display: inline-block;
+    margin-bottom: 8px;
+    /*border: 3px solid green; /*DEBUG*/
+}
+.Handel{
+    font-size: 25px;
+    font-family: loos-wide, sans-serif;
+    font-style: normal;
+    font-weight: 200 !important;
+    color: var(--Background-color);
+    /*border: 3px solid green; /*DEBUG*/
+    display: inline-block;
+    margin: 0px;
+    padding-left: 5px;
+}
+.IconCluster{
+    color: var(--Background-color);
+    padding-top: 20px;
+    margin:0px;
+    padding-left: 0px;
+    width: 100%;
+   /* border: 3px solid green; /*DEBUG*/
+   }
+.IconCluster:hover,.Handel:hover{
+    color: var(--Light);
+}
+.Col_5{
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.Col_4{
+    width: 40%;
+    display: inline-block;
+}
+.Col_6{
+    width: 60%;
+    display: inline-block;
+}
+.DEBUG{
+    /*border: 3px solid green; */
+    width: auto;
+    min-height: 100px;
+    
+}
+
+.TextCluster{
+    padding: 40px;
+    margin-top: 10px;
+    width:60%;
+    min-width: 300px;
+}
+.ArtCluster{
+    padding: 40px;
+    margin-top: 10px;  
+    width:40%;
+    min-width: 400px;
+}
