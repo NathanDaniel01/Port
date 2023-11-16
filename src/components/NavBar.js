@@ -16,7 +16,7 @@ function NavBar(){
      <nav ref={stickyRef} className={classNames("nav", { sticky })}>
       <div className = 'navContainer'>
         <Link to={`/Design`} className='navItems'> Design</Link>
-        <Link to={`/Illustration`} className='navItems'> Illustration </Link>
+        <Link to={`/ComputerScience`} className='navItems'> ??CS?? </Link>
         <Link to={`/AboutMe`} className='navItems'> About Me</Link>
         <a  href={pdfUrl} without rel='noopener noreferrer' target="_blank" className='navItems'>Resume</a>
   

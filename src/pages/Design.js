@@ -2,13 +2,19 @@ import React from "react";
 import "../App.css"
 import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-router-dom";
 import Footer from '../components/Footer';
+import NavBar_Alt from "../components/NavBar_Alt";
 function GraphicDesign() {
   return (
-   <div>
-        <h2 class = 'header'>Graphic</h2>
+      <div id="Top" class = "mainBG">
+      <a href="#">
+          <Link to={`/`}>
+            <img className="HomeBtn" src="./SVG/camper.svg" />
+          </Link>
+        </a>
+        <NavBar_Alt/>
         <h2 class = 'header'>Design</h2>
         <p>
-            Some animated Bull shit that looks cool
+            Applied
         </p>
         <div class = "BlackBG">
             <div class="imgFlex">

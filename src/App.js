@@ -8,23 +8,20 @@ import { Navigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './landing';
 import Raskog from "./pages/Raskog";
-import GraphicDesign from "./pages/GraphicDesign"
 import Letterpress from "./pages/Letterpress";
 import ComputerScience from "./pages/ComputerScience";
 import SixPack from "./pages/SixPack";
-import Childrens from "./pages/Childrens";
-import TShirt from "./pages/T-Shirt";
 import Folly from "./pages/Folly"
-import Hello from "./pages/Hello"
 import Icons from "./pages/Icons"
 import Kunikos from "./pages/Kunikos"
 import Cluster from "./pages/Cluster"
-import ReachOut from "./pages/ReachOut"
+import AboutMe from "./pages/AboutMe"
 import Zine from "./pages/Zine"
 import Wedding from "./pages/Wedding"
 import TrailFunds from "./pages/TrailFunds"
 import FWS from "./pages/FWS"
 import Rant from "./pages/Rant"
+import Design from "./pages/Design"
 import Portfolios from "./pages/Portfolio"
 import Personal from "./pages/Personal"
 import LostDog from "./pages/LostDog"
@@ -36,19 +33,16 @@ export default function App() {
         <Routes>
           <Route path="/" element={<LandingPage/>}/>
           <Route path="/Portfolio" element={<LandingPage/>}/>
-          <Route path="/GraphicDesign" element={<GraphicDesignPage/>}/>
           <Route path="/Letterpress" element={<LetterpressPage/>}/>
           <Route path="/ComputerScience" element={<ComputerSciencePage/>}/>
-          <Route path="/ReachOut" element={<ReachOutPage/>}/>
+          <Route path="/AboutMe" element={<AboutMePage/>}/>
+          <Route path="/Design" element={<DesignPage/>}/>
 
           <Route path="/Raskog" element={<RaskogPage/>}/>
           <Route path="/SixPack" element={<SixPackPage />}/>
           <Route path="/Folly" element={<FollyPage/>}/>
-          <Route path="/Childrens" element={<ChildrensPage/>}/>
           <Route path="/Icons" element={<IconsPage/>}/>
-          <Route path="/T-Shirt" element={<TShirtPage/>}/>
           <Route path="/Cluster" element={<ClusterPage/>}/>
-          <Route path="/Hello" element={<HelloPage/>}/>
           <Route path="/Kunikos" element={<KunikosPage/>}/>
 
           <Route path="/Zine" element={<ZinePage/>}/>
@@ -73,11 +67,6 @@ const LandingPage = () => {
     Landing()
   )
 };
-const GraphicDesignPage = () => {
-  return(
-    GraphicDesign()
-  )
-};
 const ComputerSciencePage = () => {
   return(
     ComputerScience()
@@ -88,9 +77,9 @@ const LetterpressPage = () => {
     Letterpress()
   )
 };
-const ReachOutPage = () => {
+const AboutMePage = () => {
   return(
-    ReachOut()
+    AboutMe()
   )
 };
 const RaskogPage = () => {
@@ -103,24 +92,9 @@ const SixPackPage = () => {
     SixPack()
   )
 };
-const ChildrensPage = () => {
-  return(
-    Childrens()
-  )
-};
-const TShirtPage = () => {
-  return(
-    TShirt()
-  )
-};
 const IconsPage = () => {
   return(
     Icons()
-  )
-};
-const HelloPage = () => {
-  return(
-    Hello()
   )
 };
 const FollyPage = () => {
@@ -181,5 +155,10 @@ const BlogPage = () => {
 const TrailFundsPage = () => {
   return(
       TrailFunds()
+  )
+};
+const DesignPage = () => {
+  return(
+      Design()
   )
 };

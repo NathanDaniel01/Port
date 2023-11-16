@@ -13,7 +13,7 @@ function NavBar_Alt(){
      <nav className="nav alt">
       <div className = 'navContainer alt'>
         <Link to={`/Design`} className='navItems alt'> Design</Link>
-        <Link to={`/Illustration`} className='navItems alt'> Illustration </Link>
+        <Link to={`/ComputerScience`} className='navItems alt'> ??CS?? </Link>
         <Link to={`/AboutMe`} className='navItems alt'> About Me</Link>
         <a  href={pdfUrl} without rel='noopener noreferrer' target="_blank" className='navItems alt'>Resume</a>
   

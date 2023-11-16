@@ -22,7 +22,7 @@ function Footer(){
                     </div>
                </div>
                <div className = 'Col_4 ArtCluster DEBUG'> 
-                        <img className = "DEBUG" src="./SVG/Camper.svg"/>
+                        <img className = "DEBUG" src="./SVG/Footer.svg"/>
                 </div>
             </div>
         </>
