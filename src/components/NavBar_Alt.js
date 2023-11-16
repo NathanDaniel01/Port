@@ -10,7 +10,7 @@ function NavBar_Alt(){
 
   return (
     <>
-     <nav className="nav alt">
+     <nav className="nav alt sticky">
       <div className = 'navContainer alt'>
         <Link to={`/Design`} className='navItems alt'> Design</Link>
         <Link to={`/ComputerScience`} className='navItems alt'> ??CS?? </Link>

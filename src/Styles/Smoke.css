@@ -1,0 +1,142 @@
+:root {
+    --Smoke1: #FEF6F4;;
+    --Smoke2: #E1DDDC;;
+  }
+
+/* Define Main Leaf */
+.Smoke {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Smoke1);
+    
+    border-radius: 50%;
+    Bottom: 10vh;
+    margin-left: 4vw;
+    position: absolute;
+    animation: smoke1  3s linear infinite;
+    
+    z-index: 16;
+  }
+/* Define Keyframes */
+  @keyframes smoke1 {
+    0% {    transform: translateY(0vh) scale(.5);
+            background-color: var(--Light);}
+    100% {    transform: translateY(-30vh) scale(1);
+      opacity: 0%;
+      background-color: var(--Smoke1);}
+    }
+  @keyframes smoke2 {
+      0% {    transform: translateX(0vw) translateY(0vh) scale(.5);
+              background-color: var(--Secondary);
+        }
+      20%{ transform: translateX(1vw) translateY(-7.5vh);background-color: var(--Smoke2);}
+      40%{ transform: translateX(-1vw) translateY(-15vh)}
+      60%{ transform: translateX(1vw) translateY(-22.5vh)}
+      100% {    transform:  translateX(0vw) translateY(-30vh) scale(1);
+        opacity: 0%;
+      background-color: var(--Smoke2);}
+      }
+  @keyframes smoke3 {
+        0% {    transform: translateX(0vw) translateY(0vh) scale(.5);
+          background-color: var(--Secondary);}
+        20%{ transform: translateX(0vw) translateY(-7.5vh);background-color: var(--Smoke2);}
+        40%{ transform: translateX(-1vw) translateY(-15vh)}
+        60%{ transform: translateX(0vw) translateY(-22.5vh)}
+        100% {    transform:  translateX(1vw) translateY(-30vh) scale(1);
+          opacity: 0%;
+      background-color: var(--Smoke1);}
+        }
+  @keyframes smoke4 {
+        0% {    transform: translateX(0vw) translateY(0vh) scale(.5);
+          background-color: var(--Secondary);}
+        25%{ transform: translateX(0vw) translateY(-7.5vh);
+          background-color: var(--Smoke2);}
+        40%{ transform: translateX(1vw) translateY(-15vh)}
+        65%{ transform: translateX(0vw) translateY(-22.5vh)}
+        100% {    transform:  translateX(-1vw) translateY(-32vh) scale(1);
+          opacity: 0%;
+          background-color: var(--Smoke2);}
+        }
+  
+/* Define Leaf Children */
+  .Smoke:nth-child(2) {
+    width: 35px;
+    height: 35px;
+    background-color: var(--Smoke2);
+    Bottom: 10vh;
+    margin-left: 3vw;
+    animation: smoke2 2s linear infinite;
+  }
+  
+  .Smoke:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Smoke1);
+    Bottom: 10vh;
+    margin-left: 6vw;
+    animation: smoke3 4s linear infinite;
+  }
+  .Smoke:nth-child(4) {
+    width: 35px;
+    height: 35px;
+    background-color: var(--Smoke2);
+    Bottom: 10vh;
+    margin-left: 5vw;
+    animation: smoke4 3s linear infinite;
+  }
+  .leaf:nth-child(5) {
+    width: 12px;
+    height: 6px;
+    background-color: var(--Light);
+    top: 65vh;
+    animation-duration: 4s;
+  }
+  .leaf:nth-child(6) {
+    width: 5px;
+    height: 10px;
+    background-color: var(--Light);
+    top: 60vh;
+    animation-duration: 6s;
+    animation: swayInWind2 9s linear infinite;
+  }
+  
+  .leaf:nth-child(7) {
+    width: 8px;
+    height: 6px;
+    background-color: var(--Light);
+    top: 75vh;
+    animation-duration: 7s;
+  }
+  
+  .leaf:nth-child(8) {
+    width: 10px;
+    height: 5px;
+    background-color: var(--Secondary);
+    top: 80vh;
+    animation-duration: 15s;
+  }
+  .leaf:nth-child(9) {
+    width: 12px;
+    height: 10px;
+    background-color: var(--Light);
+    top: 86vh;
+    animation-duration: 11s;
+    animation: swayInWind2 11s ease-in-out infinite;
+  }
+  .leaf:nth-child(10) {
+    width: 10px;
+    height: 15px;
+    background-color: var(--Light);
+    top: 76vh;
+    animation-duration: 14s;
+    animation: swayInWind2  14s ease-in-out infinite;
+  }
+  .leaf:nth-child(11) {
+    width: 5px;
+    height: 15px;
+    background-color: var(--Light);
+    top: 79vh;
+    animation-duration: 6s;
+  }
+  /* Add more leaf styles as needed */
+  

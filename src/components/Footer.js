@@ -1,7 +1,8 @@
 import React from 'react';
 import "../Styles/Footer.css"
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import "../Styles/Smoke.css"
+import Smoke from './Smoke';
+
 function Footer(){
     return(
         <>
@@ -9,9 +10,10 @@ function Footer(){
                <div className = 'Col_6 TextCluster DEBUG'>
                     <h3 className = 'DEBUG'>Nathan Daniel</h3>
                     <div className = 'Col_5 IconCluster DEBUG'>
-                        <a href = "https://www.linkedin.com/in/nathan-daniel-236b3b225/" target="_blank">
+                        <a href = "https://www.linkedin.com/in/nathan-daniel-design23/" target="_blank">
                             <img className= "Icon"src="./SVG/linkedin.svg"/>
-                            <p className = "Handel">@nathan___daniel</p>
+                            <p className = "Handel">nathan-daniel-design23</p>
+
                         </a>
                     </div>
                     <div className = 'Col_5  IconCluster DEBUG'>
@@ -20,8 +22,10 @@ function Footer(){
                             <p className = "Handel">@nathan___daniel</p>
                         </a>
                     </div>
+                    <p>Proof of concept:</p>
                </div>
                <div className = 'Col_4 ArtCluster DEBUG'> 
+                        <Smoke/>
                         <img className = "DEBUG" src="./SVG/Footer.svg"/>
                 </div>
             </div>
