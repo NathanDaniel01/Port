@@ -12,8 +12,10 @@ function NavBar_Alt(){
     <>
      <nav className="nav alt sticky">
       <div className = 'navContainer alt'>
+        {/*
         <Link to={`/Design`} className='navItems alt'> Design</Link>
         <Link to={`/ComputerScience`} className='navItems alt'> ??CS?? </Link>
+        */}
         <Link to={`/AboutMe`} className='navItems alt'> About Me</Link>
         <a  href={pdfUrl} without rel='noopener noreferrer' target="_blank" className='navItems alt'>Resume</a>
   

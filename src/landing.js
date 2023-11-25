@@ -19,13 +19,16 @@ function Landing() {
             </a>
             <Leaf/>
             
+        
             <h2 class = {'header1 sticky'}>Nathan</h2>
             <h2 class = {'header2 sticky'}>Daniel</h2>
+            
             <ParallaxProvider>
                 <ParallaxDemo/>
             </ParallaxProvider>
             <div class = 'externalspacertest'/> 
             <NavBar/>
+          
             <GraphicDesignBox id="GD"/>
             <ExperienceBox/>
             <LetterPressBox id="LP"/>
