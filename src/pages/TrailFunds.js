@@ -8,7 +8,7 @@ import NavBar_Alt from "../components/NavBar_Alt";
 
 function TrailFunds() {
   const pdfUrl = './Imgs/Trailfunds_presentation.pdf';
-  const link1Url = 'https://xd.adobe.com/view/4c4434ba-7e35-4fd8-8d6b-d7f13e1c154c-1917/?fullscreen';
+  const link1Url = 'https://www.behance.net/gallery/185494529/Trailfunds-Prototype';
   const link2Url = 'https://www.youtube.com/live/VAztGjHZFfI?si=IXkR2VLP0lNhfGCr&t=2600';
 
   const openPdfInNewTab = () => {
