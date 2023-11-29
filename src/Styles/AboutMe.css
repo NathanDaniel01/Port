@@ -65,7 +65,7 @@ Typefaces/fonts
     position: relative;
     font-size: 24px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Poppins;
     color: var(--Dark);
     text-align: left;
@@ -74,10 +74,9 @@ Typefaces/fonts
 .Bullets {
     position: relative;
     font-size: inherit;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 24px;
     font-weight: 400;
-    text-transform: uppercase;
     font-family: Poppins;
     color: var(--Dark);
     text-align: left;
@@ -85,10 +84,9 @@ Typefaces/fonts
 .Bullets_Center{
     position: relative;
     font-size: inherit;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 24px;
     font-weight: 400;
-    text-transform: uppercase;
     font-family: Poppins;
     color: var(--Background-color);
     text-align: left;
