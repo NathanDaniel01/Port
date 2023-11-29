@@ -27,7 +27,7 @@ return (
 
   <div className ="body">
     <div className ="Container">
-    <img src="./Imgs/Aboutme/Rafting.jpg" alt=""className="Img-1" /> 
+    <img src="./Imgs/Aboutme/Rafting.JPG" alt=""className="Img-1" /> 
       <div className ="CopyBlock">
         <b className ="TextCopyCOL">
             <p className ="Header_Titles">So, Your here to Get to know me?</p>
@@ -68,7 +68,7 @@ return (
           </div>
         </div>
       </div>
-      <img src="./Imgs/Aboutme/Climbing.jpg" alt=""className="Img-2" /> 
+      <img src="./Imgs/Aboutme/Climbing.JPG" alt=""className="Img-2" /> 
     </div>
 
   <div className ="game-hoby">
