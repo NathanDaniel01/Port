@@ -21,12 +21,13 @@ return (
       <b className ="Header_Big">Hello, I’m Nate</b>
       <div className ="Header_Sub">You probably knew that Already...</div>
     </div>
-    <div className ="Img_headshot"/>
+    <img src="./Imgs/Aboutme/Headshot.jpg" alt=""className="Img_headshot" /> 
+    
   </div>
 
   <div className ="body">
     <div className ="Container">
-      <div className ="Img-1"/>
+    <img src="./Imgs/Aboutme/Rafting.jpg" alt=""className="Img-1" /> 
       <div className ="CopyBlock">
         <b className ="TextCopyCOL">
             <p className ="Header_Titles">So, Your here to Get to know me?</p>
@@ -67,7 +68,7 @@ return (
           </div>
         </div>
       </div>
-      <div className ="Img-2"/>
+      <img src="./Imgs/Aboutme/Climbing.jpg" alt=""className="Img-2" /> 
     </div>
 
   <div className ="game-hoby">
@@ -89,7 +90,7 @@ return (
   <div className ="Container">
     <b className ="Header_Titles">What Am I Looking For?</b>
     <div className ="InnerContainer">
-      <div className ="Img-3"/>
+      <img src="./Imgs/Aboutme/Looking.jpg" alt=""className="Img-3" /> 
       <div className ="TextCopyCOL Wide">
         <p className ="BodyCopy">Im looking for a workplace that can help make me grow and help people with their needs. I want to design strong, Unique experiences for whoever i am working with. </p>
         <p className ="BodyCopy">I like to ask myself how can i improve not just what im working on but who i am as well. I hope to surround myself with a good collaborative workplace where i can be a team player and grow my skillsets.</p>
