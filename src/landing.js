@@ -28,10 +28,10 @@ function Landing() {
             </ParallaxProvider>
             <div class = 'externalspacertest'/> 
             <NavBar/>
-          
-            <GraphicDesignBox id="GD"/>
-            <ExperienceBox/>
-            <LetterPressBox id="LP"/>
+            
+            <ExperienceBox id="GD"/>
+            <GraphicDesignBox/>
+            <LetterPressBox/>
             <Footer/>
         </div>
     );
