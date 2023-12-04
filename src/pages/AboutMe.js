@@ -80,7 +80,7 @@ return (
     <div className ="TextCopyROW">
       <ul className ="GameBlock">
         <li className ="Bullets_Center"> I sold a pancake mix</li>
-        <li className ="Bullets_Center"> I can fly a plain</li>
+        <li className ="Bullets_Center"> I can fly a plane</li>
         <li className ="Bullets_Center"> I can breath fire</li>
       </ul>
     </div>
