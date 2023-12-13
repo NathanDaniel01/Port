@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 
 function GraphicDesignBox(){
     return(
-    <div id="GD"class = "Box GD"> 
+    <div id="GD"class = "Box "> 
         <div class="imgFlex">
             <div  class="contain L">
                 <Link to={`/Raskog`}>

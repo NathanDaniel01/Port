@@ -26,9 +26,11 @@ import Portfolios from "./pages/Portfolio"
 import Personal from "./pages/Personal"
 import LostDog from "./pages/LostDog"
 import Blog from "./pages/BlogPages/Blog"
+import ScrollToTop from "./components/ScrollToTop"
 export default function App() {
   return (
    <Router>
+    <ScrollToTop/>
       <main>
         <Routes>
           <Route path="/" element={<LandingPage/>}/>

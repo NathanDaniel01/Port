@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 
 function ExperienceBox(){
     return(
-    <div id="EP"class = "Box"> 
+    <div id="EP"class = "Box GD"> 
         <div class="imgFlex">
             <div  class="contain L">
                 <img src="./SVG/Trailfunds.svg" alt=""class="image" />
