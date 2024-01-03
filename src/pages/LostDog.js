@@ -21,7 +21,7 @@ function LostDog() {
       <p class = 'SubP center'>
             Scope: find a poster or flyer that was porly designed and redevelop it and replace the original. 
             We were required to have handmade type in the end poster.
-            i will fill this with more words later and make it seem like im talking moare about the project. talk more on design choice and why
+            I will fill this with more words later and make it seem like im talking moare about the project. talk more on design choice and why
       </p>
       <div  class="containSub">
             <img src="./Imgs/LostDog4.jpg" alt=""class="imagesSub" />                  

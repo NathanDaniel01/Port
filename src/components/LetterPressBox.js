@@ -7,34 +7,22 @@ function LetterPressBox(){
     <div id="LP"class = "Box"> 
         <div class="imgFlex">
             <div  class="contain Bottom L">
+                <Link to={`/Zine`}>
                 <img src="./Imgs/LP/Zine/Zine_5.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Zine`}>Zine</Link>
+                    <a class="titlesWhitetoRed" >Letterpress</a>
                 </div>
+                </Link>
             </div>
             <div  class="contain Bottom R">
+                <Link to={`/Wedding`}>
                 <img src="./Imgs/Wedding/Wed_3.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Wedding`}>Wedding</Link>
+                    <a class="titlesWhitetoRed">Freelance</a>
                 </div>
+                </Link>
             </div>   
         </div>  
-        {/*
-        <div class="imgFlex">
-            <div  class="contain L">
-                <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Rant`}>Rant</Link>
-                </div>
-            </div>   
-            <div  class="contain Bottom R">
-                <img src="./Imgs/SixPack/Detail_9.jpg" alt=""class="image" />
-                <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/Zine`}>Zine</Link>
-                </div>
-            </div>   
-        </div>   
-    */ }  
     </div>
    );
 }

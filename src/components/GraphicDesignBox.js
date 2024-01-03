@@ -10,7 +10,7 @@ function GraphicDesignBox(){
                 <Link to={`/Raskog`}>
                     <img src="./Imgs/Raskog/Raskog1.jpg" alt=""class="image" />
                     <div class="middle">
-                        <a class="titlesWhitetoRed" >Räskog</a>
+                        <a class="titlesWhitetoRed" >Techical Drawings</a>
                     </div>
                 </Link>
             </div>
@@ -18,7 +18,7 @@ function GraphicDesignBox(){
                 <Link  to={`/Kunikos`}>
                     <img src="./Imgs/Kunikos.jpg" alt=""class="image" />
                     <div class="middle">
-                            <a href="#top"class="titlesWhitetoRed">Kunikos</a>
+                            <a href="#top"class="titlesWhitetoRed">Menu Redesign</a>
                     </div>
                 </Link>
             </div>   
@@ -28,7 +28,7 @@ function GraphicDesignBox(){
                 <Link to={`/LostDog`}>
                     <img src="./Imgs/LostDog.jpg" alt=""class="image" />
                     <div class="middle">
-                    <a class="titlesWhitetoRed" > Lost Dog </a>
+                    <a class="titlesWhitetoRed" >Poster Redesign</a>
                         
                     </div>
                 </Link>
@@ -37,7 +37,7 @@ function GraphicDesignBox(){
                 <Link to={`/SixPack`}>
                     <img src="./Imgs/SixPack/Detail_8.jpg" alt=""class="image" />
                     <div class="middle">
-                    <a class="titlesWhitetoRed" >6-pack</a>
+                    <a class="titlesWhitetoRed" >Package Redesign</a>
                     </div>
                 </Link>
             </div>   
@@ -47,7 +47,7 @@ function GraphicDesignBox(){
                 <Link to={`/Folly`}>
                     <img src="./Imgs/Folly.jpg" alt=""class="image" />
                     <div class="middle">
-                    <a class="titlesWhitetoRed" >Folly</a>
+                    <a class="titlesWhitetoRed" >Typeface Design</a>
                     </div>
                 </Link>
             </div>
@@ -55,7 +55,7 @@ function GraphicDesignBox(){
                 <Link to={`/Cluster`}>
                     <img src="./Imgs/Cluster.jpg" alt=""class="image" />
                     <div class="middle">
-                        <a class="titlesWhitetoRed" >Cluster</a>
+                        <a class="titlesWhitetoRed" >Water Color</a>
                     </div>
                 </Link>
             </div>   

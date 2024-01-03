@@ -14,7 +14,7 @@ function Kunikos() {
           </Link>
         </a>
         <NavBar_Alt/>
-      <h1 class = "header center">Kunikos</h1>
+      <h1 class = "header center">Menu Redesign</h1>
       <p class = 'SubP center'>
         Kunikos objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
         The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.

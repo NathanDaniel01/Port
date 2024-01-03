@@ -33,7 +33,11 @@ return (
             <p className ="Header_Titles">So, Your here to Get to know me?</p>
         </b>
         <div className ="TextCopyCOL">
-          <p className ="BodyCopy">My Name is Nathan Daniel, I am 22 years old and a Colorado native. I just recently graduated from Colorado mesa university. I took this past summer to raft Guide before i get a big boy job in UX/UI or front end engineering </p>
+          <p className ="BodyCopy">
+            My Name is Nathan Daniel, I am 22 years old and a Colorado native. 
+            I just recently graduated from Colorado mesa university. I took this 
+            past summer to raft Guide before I get a "big boy" job in UX/UI or front 
+            end engineering </p>
         </div>
       </div>
     </div>
@@ -41,7 +45,7 @@ return (
     <div className ="Container flip">
       <div className ="CopyBlock">
         <b className ="TextCopyROW">
-          <p className ="Header_Titles">Oh, you want to hear About my Hobbies?</p>
+          <p className ="Header_Titles">Oh, you want to hear about my hobbies?</p>
         </b>
         <div className ="BulletsBlock">
           <div className ="bullets2">
@@ -81,7 +85,7 @@ return (
       <ul className ="GameBlock">
         <li className ="Bullets_Center"> I sold a pancake mix</li>
         <li className ="Bullets_Center"> I can fly a plane</li>
-        <li className ="Bullets_Center"> I can breath fire</li>
+        <li className ="Bullets_Center"> I can breathe fire</li>
       </ul>
     </div>
     </div>
@@ -92,15 +96,15 @@ return (
     <div className ="InnerContainer">
       <img src="./Imgs/Aboutme/Looking.jpg" alt=""className="Img-3" /> 
       <div className ="TextCopyCOL Wide">
-        <p className ="BodyCopy">Im looking for a workplace that can help make me grow and help people with their needs. I want to design strong, Unique experiences for whoever i am working with. </p>
-        <p className ="BodyCopy">I like to ask myself how can i improve not just what im working on but who i am as well. I hope to surround myself with a good collaborative workplace where i can be a team player and grow my skillsets.</p>
+        <p className ="BodyCopy">Im looking for a workplace that can help make me grow and help people with their needs. I want to design strong, Unique experiences for whoever I am working with. </p>
+        <p className ="BodyCopy">I like to ask myself how can I improve not just what im working on but who I am as well. I hope to surround myself with a good collaborative workplace where I can be a team player and grow my skillsets.</p>
       </div>
     </div>
   </div>
 
   <div className ="last-segment">
     <div className ="I">
-      <b className ="Header_Titles Primary">Well, thats all i want to tell you for now.</b>
+      <b className ="Header_Titles Primary">Well, thats all I want to tell you for now.</b>
     </div>
   </div>
   </div>

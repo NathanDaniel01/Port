@@ -11,12 +11,14 @@ import Canvas from './components/Canvas';
 import Leaf from './components/Leafs';
 import ExperienceBox from './components/ExperienceBox';
 import NavBar from './components/NavBar';
+import NavBar_Alt from "./components/NavBar_Alt";
 function Landing() {
     return (
          <div id="Top" class = "mainBG"> 
             <a href="#">
             <img className="HomeBtn" src="./SVG/camper.svg" />
             </a>
+            <NavBar_Alt/>
             <Leaf/>
             
         

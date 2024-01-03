@@ -12,17 +12,14 @@ function Footer(){
                     <div className = 'Col_5 IconCluster DEBUG'>
                         <a href = "https://www.linkedin.com/in/nathan-daniel-design23/" target="_blank">
                             <img className= "Icon"src="./SVG/linkedin.svg"/>
-                            <p className = "Handel">nathan-daniel-design23</p>
 
                         </a>
                     </div>
                     <div className = 'Col_5  IconCluster DEBUG'>
                         <a  href = "https://www.instagram.com/nathan___daniel/ " target="_blank">
                             <img className= "Icon" src="./SVG/instagram.svg"/>
-                            <p className = "Handel">@nathan___daniel</p>
                         </a>
                     </div>
-                    <p>Proof of concept:</p>
                </div>
                <div className = 'Col_4 ArtCluster DEBUG'> 
                         <Smoke/>

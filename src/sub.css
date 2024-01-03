@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -6,7 +8,7 @@ footer, header, hgroup, menu, nav, section {
 }
 :root {
   --Background-color: #FEF6F4;
-  --Black: #000000;
+  --Black: #222222;
   --red: #F62E2E;
   --White: #FFFFFF;
   --Redish: #335C64;
@@ -30,11 +32,13 @@ src: url(https://use.typekit.net/gze6yme.css);
   text-align: center;
   padding: 10px;
 }
+
 .header{
-    font-style: normal;
-    font-family: eloquent-jf-pro;
-    font-size: 125px;
-    color: var(--black);
+  font-weight: 700;
+  text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 95px;
+    color: var(--Black);
     margin-top: 120px;
   }
   .SubP{
@@ -42,6 +46,11 @@ src: url(https://use.typekit.net/gze6yme.css);
    margin: auto; 
    font-size: 20px;
    margin-bottom: 60px;
+   position: relative;
+   font-weight: 400;
+   text-transform: none;
+   font-family: Poppins;
+   color: var(--Dark);
   }
 
   .imgFlexSub {

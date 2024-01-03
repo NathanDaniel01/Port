@@ -7,16 +7,20 @@ function ExperienceBox(){
     <div id="EP"class = "Box GD"> 
         <div class="imgFlex">
             <div  class="contain L">
+            <Link to={`/TrailFunds`}>
                 <img src="./SVG/Trailfunds.svg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/TrailFunds`}>TrailFunds</Link>
+                    <a class="titlesWhitetoRed" >TrailFunds Case Study</a>
                 </div>
+            </Link>
             </div>
             <div  class="contain R">
+                <Link to={`/FWS`}>
                 <img src="./Imgs/FWS.jpg" alt=""class="image" />
                 <div class="middle">
-                    <Link class="titlesWhitetoRed" to={`/FWS`}>FWS</Link>
+                    <a class="titlesWhitetoRed">FWS</a>
                 </div>
+                </Link>
             </div>   
         </div>  
     </div>

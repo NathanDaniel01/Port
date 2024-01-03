@@ -43,8 +43,10 @@
     /*border: 3px solid green; /*DEBUG*/
 }
 .navItems {
-    font-family: loos-wide;
+    font-family: poppins;
     font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 550;
     position: relative;
     margin: 0px;
     /*border: 3px solid green; /*DEBUG*/
@@ -70,8 +72,8 @@
   
   /*         -------- ALT --------           */
 .alt{
-    background-color: var(--Background-color);
-    color:  var(--Primary);
+    background-color:transparent;
+    color:  var(--Dark);
 }
 
 /*         -------- Responcive --------           */
