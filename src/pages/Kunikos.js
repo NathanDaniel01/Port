@@ -16,8 +16,9 @@ function Kunikos() {
         <NavBar_Alt/>
       <h1 class = "header center">Menu Redesign</h1>
       <p class = 'SubP center'>
-        Kunikos objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-        The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+      In this project, I was challenged to redesign a menu for Kunikos. 
+      I leaned into the art style from the Edo period of japan. that was then 
+      paired with a modern typeface to bring the menu into the 21st century.
       </p>
       <div class="imgFlexSub">
         <div  class="containSub">

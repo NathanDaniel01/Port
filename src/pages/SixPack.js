@@ -15,9 +15,8 @@ function SixPack() {
         <NavBar_Alt/>
         <h1 class = "header center">6 Pack</h1>
                 <p class = 'SubP center'>
-                The goal of this project was to breathe new life into Samuel Smith Brewery's 6-pack beer 
-                packaging by embracing a Victorian-style aesthetic that pays homage to the brewery's heritage. 
-                The current design, which is outdated and lacking in sophistication, required a much-needed revitalization.
+                The goal of this project was to reimagine Samuel Smith Brewery's 6-pack beer
+                packaging by embracing a Victorian-style aesthetic that pays homage to the brewery's heritage.
                 </p>
         
           

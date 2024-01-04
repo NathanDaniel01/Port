@@ -34,10 +34,12 @@ return (
         </b>
         <div className ="TextCopyCOL">
           <p className ="BodyCopy">
-            My Name is Nathan Daniel, I am 22 years old and a Colorado native. 
-            I just recently graduated from Colorado mesa university. I took this 
-            past summer to raft Guide before I get a "big boy" job in UX/UI or front 
-            end engineering </p>
+          I’m Nate Daniel and I just recently graduated from Colorado Mesa 
+          University with my B.S. in Computer Science and a minor in Graphic Design.
+           Throughout my studies I focused on the intersection between design and technology, 
+           believing that online interactions can not only be functional, but also beautiful. I would make a great 
+           addition to your team because not only am I a great designer, but I spent my summers
+           as a white water raft guide! </p>
         </div>
       </div>
     </div>
@@ -96,14 +98,14 @@ return (
     <div className ="InnerContainer">
       <img src="./Imgs/Aboutme/Looking.jpg" alt=""className="Img-3" /> 
       <div className ="TextCopyCOL Wide">
-        <p className ="BodyCopy">Im looking for a workplace that can help make me grow and help people with their needs. I want to design strong, Unique experiences for whoever I am working with. </p>
-        <p className ="BodyCopy">I like to ask myself how can I improve not just what im working on but who I am as well. I hope to surround myself with a good collaborative workplace where I can be a team player and grow my skillsets.</p>
+        <p className ="BodyCopy">I’m looking for a collaborative workplace that can help make me continue to grow in my UX / UI design skills. </p>
+        <p className ="BodyCopy">I would love to find a team full of creative and talented people that inspire me to produce top quality work.</p>
       </div>
     </div>
   </div>
 
   <div className ="last-segment">
-    <div className ="I">
+    <div>
       <b className ="Header_Titles Primary">Well, thats all I want to tell you for now.</b>
     </div>
   </div>

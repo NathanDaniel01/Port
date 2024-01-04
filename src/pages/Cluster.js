@@ -14,14 +14,13 @@ function Cluster() {
           </Link>
         </a>
         <NavBar_Alt/>
-     <h1 class = "header center">Cluster</h1>
+     <h1 class = "header center">Watercolor</h1>
       <p class = 'SubP center'>
-      In this creative endeavor, I undertook the challenge of crafting distinct character clusters 
-      that artfully intertwined while maintaining individuality within the themes: Pidgins,  and Gnomes. Employing 
-      the medium of watercolor, I brought to life these whimsical and harmonious 
-      ensembles, each exuding its unique charm while adhering to its respective theme. The project showcases my 
-      ability to seamlessly blend creativity, thematic consistency, and the expressive qualities of watercolor 
-      to deliver captivating character clusters.
+      This piece artfully intertwines Pigeons and Gnomes while maintaining 
+      individuality within. Through watercolor, these whimsical and harmonious 
+      ensembles exude their unique charm while adhering to the larger theme. The 
+      project helped me hone my skills to blend creativity and expressive qualities 
+      of watercolor to deliver captivating character clusters.
       </p>
       <div  class="containSub">
         <img src="./Imgs/cluster/Cluster3.jpg" alt=""class="imagesSub" />                  

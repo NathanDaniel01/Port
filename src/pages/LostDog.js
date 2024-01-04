@@ -17,11 +17,12 @@ function LostDog() {
       </a>
   
       <NavBar_Alt/>
-      <h1 class = "header center">Lost Dog</h1>
+      <h1 class = "header center">Poster Redesign</h1>
       <p class = 'SubP center'>
-            Scope: find a poster or flyer that was porly designed and redevelop it and replace the original. 
-            We were required to have handmade type in the end poster.
-            I will fill this with more words later and make it seem like im talking moare about the project. talk more on design choice and why
+            In this project, I was challenged to find a 
+            poster or flyer that was poorly designed and redesign 
+            it to replace the original. I utilized a  handmade typeface 
+            in the end poster to make it feel more personal.
       </p>
       <div  class="containSub">
             <img src="./Imgs/LostDog4.jpg" alt=""class="imagesSub" />                  

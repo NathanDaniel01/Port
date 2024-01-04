@@ -13,12 +13,14 @@ function Wedding() {
           </Link>
         </a>
         <NavBar_Alt/>
-     <h1 class = "header center">Wedding</h1>
+     <h1 class = "header center">A Special Freelance</h1>
 
              <p class = 'SubP center'>
-             I had a fun role during my sister's wedding preparations by crafting elegant thank you cards using a C&P letterpress,
-              capturing the timeless charm of classic letterpress style. These meticulously crafted cards added a personal touch to 
-              her expressions of gratitude, becoming a memorable keepsake for her guests.
+                 I was commissioned to create unique letterpress thank you notes 
+                 for my sister’s wedding. The design leans into the timeless charm of 
+                 the classic letterpress style, while bringing in aspects of my sister & 
+                 her husband’s interests. I printed the thank you notes on a 1910 C&P letterpress to 
+                 create a memorable keepsake for the guests at her wedding.
              </p>
     
       <div class="col">

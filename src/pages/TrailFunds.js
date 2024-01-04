@@ -36,26 +36,26 @@ function TrailFunds() {
      </div>
 
      <div  class="containSub center">
-      <p class = 'SubP TF'>
-      I was the designer in charge of the development and execution of TrailFunds brand identity, 
-      encompassing the creation of a distinctive logo, slide decks, wireframes, and a 
-      responsive high-fidelity interface. This comprehensive effort was guided by a mobile-first approach, 
-      ensuring an optimal user experience across various devices.
-
-      To shape the future of the product, I presented the designs for the forthcoming user experience, 
-      providing crucial insights and direction to inform its development.
-      Finally, I successfully delivered a composable front-end experience by 
-      leveraging React and React Native, further enhancing the application's versatility and performance.
+      <p class = 'SubP'>
+      I was the lead UX & UI designer for the TrailFunds project. 
+      I created the brand identity, encompassing a distinctive logo, slide decks, 
+      wireframes, and a responsive high-fidelity interface. This comprehensive effort 
+      was guided by a mobile-first approach, ensuring an optimal user experience across 
+      various devices. To shape the future of the product, I presented the designs for the 
+      forthcoming user experience, providing crucial insights and direction to inform its development. 
+      I also successfully delivered a composable front-end experience by leveraging React and React Native, 
+      further enhancing the application's versatility and performance.
     
       </p>
-      <p class = 'SubP TF'>
-        Coding work
-        At Trail Funds My Role switched alot. I took on TrailFunds as a side project my junor year, 
-        where I was assigned to the role of the UX/UI as the semester continued, I started helping on 
-        the Geo-fence and location data through swift. I then became the back-end lead working on 
-        redesigning the database and creating API calls that the client requested. the end desision was to run on a 
-        SQLlite DB along with Flask API in Python. We won 3rd at GoCode Colorado 2022 along with peoples choice award.
-        Incorporating state-of-the-art technology, I utilized Swift to integrate geofences and location data into the front-end, enhancing the application's functionality and user engagement.
+      <p class = 'SubP'>
+        I also led the Geo-Fencing Integration effort & the backend 
+        database design for the project. I utilized Swift to integrate geofences 
+        and location data into the front end, to enhance the application’s functionality 
+        and user engagement. 
+
+        In my capacity as the back-end lead, I redesigned the database to improve efficiencies, 
+        created API calls and utilized SQL Lite and Flask API in Python to create a reliable & 
+        efficient operating experience for the users.
       
 
       </p>

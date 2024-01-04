@@ -14,13 +14,13 @@ function Folly() {
           </Link>
         </a>
         <NavBar_Alt/>
-     <h1 class = "header center">Folly</h1>
+     <h1 class = "header center">Typeface Design</h1>
         <p class = 'SubP center'>
-        In the project that I call Folly, I embarked on the creation of a unique Dislplay serif typeface inspired 
-        by the intricate patterns of trees, leaves, and foliage. My objective was to craft a versatile typeface 
-        that remained legible and visually engaging at both small and large sizes. The result is a meticulously 
-        designed typeface that seamlessly combines organic inspiration with practical readability for a wide range 
-        of design applications.I started with a existing typeface as the base of the design.
+        I set out to create a unique display serif typeface inspired 
+        by the intricate patterns of trees, leaves, and foliage. The goal 
+        was to keep it legible and visually engaging at both small and large sizes. 
+        The result is a meticulously designed typeface that seamlessly combines organic 
+        inspiration with practical readability.
         </p>
         <div  class="containSub">
           <img src="./Imgs/Folly/Folly1.jpg" alt=""class="imagesSub" /> 

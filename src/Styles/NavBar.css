@@ -30,6 +30,13 @@
     z-index: 15;
     position:relative;
 }
+.NSnav{
+    height: 60px;
+    background-color: var(--Primary);
+    width: 100%;
+    z-index: 1;
+    position:relative;
+}
 .sticky {
     position: fixed;
     top: 0;

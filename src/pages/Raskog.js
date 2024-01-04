@@ -14,10 +14,12 @@ function Raskog() {
         </a>
   
       <NavBar_Alt/>
-     <h1 class = "header center">Räskog</h1>
+     <h1 class = "header center">Techical Drawings</h1>
              <p class = 'SubP center'>
-             Raskog's objective was to create a visually compelling instruction manual for assembling a mechanical device, using only illustrations and symbols to convey information.
-            The scope manual will include illustrations for each step of the assembly process, as well as symbols and graphics to represent different tools and components. It covers all necessary information for a complete and successful assembly.
+             Following the assembly manual from Ikea, this was one of the 
+             hardest tasks I have been assigned. as the goal was to create a 
+             visually compelling instruction manual for assembling a mechanical 
+             device, using only illustrations and symbols to convey information.
              </p>
       <div  class="containSub">
           <img src="./Imgs/Raskog/ras.jpg" alt=""class="imagesSub" />                  
