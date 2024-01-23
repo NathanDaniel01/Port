@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Link, Routes, useParams } from "react-r
 import Footer from './components/Footer';
 import Canvas from './components/Canvas';
 import Leaf from './components/Leafs';
+import Static from './components/Static';
 import ExperienceBox from './components/ExperienceBox';
 import NavBar from './components/NavBar';
 import NavBar_NS from "./components/NavBar_NS";
@@ -27,7 +28,8 @@ function Landing() {
             <ParallaxProvider>
                 <ParallaxDemo/>
             </ParallaxProvider>
-            <div class = 'externalspacertest'/> 
+            <Static/>
+            <div class = 'externalspacertest hide'/> 
             <NavBar/>
             
             <ExperienceBox id="GD"/>

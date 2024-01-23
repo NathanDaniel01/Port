@@ -10,14 +10,14 @@ function NavBar_NS(){
 
   return (
     <>
-     <nav className="NSnav alt sticky">
-      <div className = 'navContainer alt'>
+     <nav className="NSnav altNS sticky">
+      <div className = 'navContainer altNs'>
         {/*
         <Link to={`/Design`} className='navItems alt'> Design</Link>
         <Link to={`/ComputerScience`} className='navItems alt'> ??CS?? </Link>
         */}
-        <Link to={`/AboutMe`} className='navItems alt'> About Me</Link>
-        <a  href={pdfUrl} without rel='noopener noreferrer' target="_blank" className='navItems alt'>Resume</a>
+        <Link to={`/AboutMe`} className='navItems altNS'> About Me</Link>
+        <a  href={pdfUrl} without rel='noopener noreferrer' target="_blank" className='navItems altNS'>Resume</a>
   
         </div>
       </nav>

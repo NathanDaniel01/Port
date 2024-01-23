@@ -4,7 +4,7 @@ import "../App.css"
 import "../Styles/Parallax.css"
 
 const ParallaxDemo = () => (
-    <div class = "paralaxBox">
+    <div class = "paralaxBox hide">
         
         <Parallax speed={25}
         class = "mountains1"

@@ -94,7 +94,12 @@
     }
     
 }
+@media (max-width: 700px){
+  .hide{
+    display: none !important;
+  }
 
+}
 @media (max-width: 600px) {
   .header, .header1, .header2{
         font-size: 55px !important;

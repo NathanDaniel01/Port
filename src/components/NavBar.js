@@ -12,7 +12,7 @@ function NavBar(){
 
   return (
     <>
-    <div className = 'NavSpacer'/>
+    <div className = 'NavSpacer hide' />
      <nav ref={stickyRef} className={classNames("nav", { sticky })}>
       <div className = 'navContainer'>
          {/*

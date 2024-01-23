@@ -3,6 +3,7 @@ import "../Styles/Leaf.css"
 function Leaf(){
     return(
       <>
+      <div className="hide">
             <div class="leaf"/>
             <div class="leaf"/>
             <div class="leaf"/>
@@ -18,6 +19,7 @@ function Leaf(){
             <div class="leaf"/>
             <div class="leaf"/>
             <div class="leaf"/>
+      </div>
       </>
     );
 }
