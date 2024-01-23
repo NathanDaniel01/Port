@@ -79,7 +79,7 @@
   
   /*         -------- ALT --------           */
 .alt{
-    background-color:transparent;
+    background-color:var(--Background-color);
     color:  var(--Dark);
 }
 

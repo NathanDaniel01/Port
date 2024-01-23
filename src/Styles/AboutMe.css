@@ -62,6 +62,7 @@ Typefaces/fonts
     text-align: left;
     }
 .BodyCopy {
+    
     position: relative;
     font-size: 24px;
     font-weight: 400;
@@ -69,7 +70,7 @@ Typefaces/fonts
     font-family: Poppins;
     color: var(--Dark);
     text-align: left;
-    margin: 0;
+    margin: 10px;
 }
 .Bullets {
     position: relative;
@@ -103,8 +104,8 @@ Typefaces/fonts
 .Img-1, .Img-2, .Img-3{
     position: relative;
     background-color: #d9d9d9;
-    width: 557px;
-    height: 444px;
+    max-width: 557px;
+    max-height: 444px;
     }
 /*Containers*/
 .TitleCopy {
@@ -131,14 +132,14 @@ Typefaces/fonts
     position: relative;
     top: 30%;
     display: flex;
-    margin: 5em;
+    margin: 10px;
     margin-top: 10em;
     margin-bottom: 10em;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 1em;
     }
 .flip {
     flex-wrap: wrap-reverse;
@@ -208,6 +209,7 @@ Typefaces/fonts
     align-items: center;
     justify-content: center;
     gap: 50px;
+    width: 100%;
     }
     .so-your-here {
     margin: 0;
@@ -279,8 +281,6 @@ Typefaces/fonts
     .img-2 {
     position: relative;
     background-color: #d9d9d9;
-    width: 557px;
-    height: 444px;
     }
     .hobbies-body {
     display: flex;
@@ -446,3 +446,69 @@ Typefaces/fonts
     color: #000;
     font-family: Poppins;
     }
+
+/*-=-=-=-=-=-=-=-=- RESPONCIVE -=-=-=-=-=-=-=-=-=-=-=-=-=- */
+@media (max-width: 700px) {
+    .Header_Big{
+        font-size: 50px;
+    }
+    .Header_Sub{
+        font-size: 25px;
+    }
+    .Header_Titles{
+        font-size: 44px;
+    }
+    .BodyCopy, .Bullets{
+       font-size: 22px; 
+    }
+    .Container  {
+        width: 100%;
+    }
+    .Img-1, .Img-2, .Img-3{
+        width: 100%;
+        margin: 20px;
+        }
+    .last-segment{
+        width: 100%;
+        padding: 10px;
+    }
+    .BulletsBlock {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 600px) {
+    .BodyCopy, .Bullets, .Bullets_Center{
+       font-size: 18px; 
+    }
+    .Wide{
+        width: 75%;
+    }
+}
+@media (max-width: 500px) {
+    .BodyCopy, .Bullets, .Bullets_Center{
+       font-size: 20px; 
+    }
+}
+@media (max-width: 400px) {
+    .Header_Big{
+        font-size: 40px;
+    }
+    .Header_Titles{
+        font-size: 32px;
+        text-align: center;
+    }
+    .Header_Sub{
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BodyCopy, .Bullets{
+       font-size: 18px; 
+    }
+    .BulletsBlock {
+        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
