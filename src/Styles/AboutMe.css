@@ -463,6 +463,8 @@ Typefaces/fonts
     }
     .Container  {
         width: 100%;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
     .Img-1, .Img-2, .Img-3{
         width: 100%;
@@ -470,7 +472,9 @@ Typefaces/fonts
         }
     .last-segment{
         width: 100%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
     }
     .BulletsBlock {
         margin-left: auto;
@@ -488,6 +492,10 @@ Typefaces/fonts
 @media (max-width: 500px) {
     .BodyCopy, .Bullets, .Bullets_Center{
        font-size: 20px; 
+    }
+    .Container{
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 }
 @media (max-width: 400px) {

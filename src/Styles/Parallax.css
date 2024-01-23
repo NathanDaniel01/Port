@@ -44,7 +44,7 @@
   
 .BG1 {
     background-color: var(--Primary);
-    height: 50vw;
+    height: 100vw;
     width: 100%;
     z-index: 8 !important;
     position: relative;
