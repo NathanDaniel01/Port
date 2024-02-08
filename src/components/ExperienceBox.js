@@ -15,10 +15,10 @@ function ExperienceBox(){
             </Link>
             </div>
             <div  class="contain R">
-                <Link to={`/FWS`}>
-                <img src="./Imgs/FWS.jpg" alt=""class="image" />
+                <Link to={`/Ecom`}>
+                <img src="./Imgs/Ecom/LandingColor.png" alt=""class="image" />
                 <div class="middle">
-                    <a class="titlesWhitetoRed">FWS</a>
+                    <a class="titlesWhitetoRed">E-Commerce</a>
                 </div>
                 </Link>
             </div>   

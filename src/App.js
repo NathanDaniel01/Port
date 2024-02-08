@@ -25,6 +25,7 @@ import Design from "./pages/Design"
 import Portfolios from "./pages/Portfolio"
 import Personal from "./pages/Personal"
 import LostDog from "./pages/LostDog"
+import Multi from "./pages/MultBrandingUX";
 import Blog from "./pages/BlogPages/Blog"
 import ScrollToTop from "./components/ScrollToTop"
 export default function App() {
@@ -54,6 +55,7 @@ export default function App() {
           <Route path="/Wedding" element={<WeddingPage/>}/>
           <Route path="/FWS" element={<FWSPage/>}/>
 
+          <Route path="/Ecom" element={<MultiPage/>}/>
           <Route path="/TrailFunds" element={<TrailFundsPage/>}/>
           <Route path="/MyPortfolio" element={<PortfoliosPage/>}/>
           <Route path="/Blog" element={<BlogPage/>}/>
@@ -137,6 +139,11 @@ const FWSPage = () => {
 const LostDogPage = () => {
   return(
     LostDog()
+  )
+};
+const MultiPage = () => {
+  return(
+    Multi()
   )
 };
 const PersonalPage = () => {
