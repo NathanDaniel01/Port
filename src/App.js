@@ -54,6 +54,7 @@ export default function App() {
           <Route path="/Rant" element={<RantPage/>}/>
           <Route path="/Wedding" element={<WeddingPage/>}/>
           <Route path="/FWS" element={<FWSPage/>}/>
+          
 
           <Route path="/Ecom" element={<MultiPage/>}/>
           <Route path="/TrailFunds" element={<TrailFundsPage/>}/>
@@ -166,6 +167,7 @@ const TrailFundsPage = () => {
       TrailFunds()
   )
 };
+
 const DesignPage = () => {
   return(
       Design()
