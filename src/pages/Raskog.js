@@ -26,20 +26,21 @@ function Raskog() {
       </div>
       <div class="imgFlexSub">
         <div  class="containSub">
-            <img src="./Imgs/Raskog/ras4.jpg" alt=""class="imagesSub" />                  
+            <img src="./Imgs/Raskog/ras2.jpg" alt=""class="imageSub" />                  
         </div>
         <div  class="containSub">
-            <img src="./Imgs/Raskog/ras3.jpg" alt=""class="imagesSub" />                  
-        </div>
+            <img src="./Imgs/Raskog/ras5.jpg" alt=""class="imageSub" />                  
+        </div> 
       </div>
       <div class="imgFlexSub">
         <div  class="containSub">
-            <img src="./Imgs/Raskog/ras2.jpg" alt=""class="imagesSub" />                  
+            <img src="./Imgs/Raskog/ras4.jpg" alt=""class="imageSub" />                  
         </div>
         <div  class="containSub">
-            <img src="./Imgs/Raskog/ras5.jpg" alt=""class="imagesSub" />                  
-        </div> 
+            <img src="./Imgs/Raskog/ras3.jpg" alt=""class="imageSub" />                  
+        </div>
       </div>
+      
      <Footer style={{margin: "100px auto auto auto"}}/>
  </div>
    );

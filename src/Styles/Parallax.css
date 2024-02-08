@@ -51,8 +51,14 @@
     
   }
 
-@media (min-width:700){
-  .show{
-    display: none;
+@media (max-width:1000px){
+  .tree3{
+    margin-top: 0%;
+  }
+  .tree2{
+    margin-top: 0%;
+  }
+  .mountains1{
+    margin-top: 0%;
   }
 }
